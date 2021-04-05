@@ -23,7 +23,7 @@ if($LOCAL){
     define('HOST', 'localhost');
     define('DB_USER', 'u561911775_Stafen');
     define('DB_PASS', 'Stafen1234');
-    define('DB_NAME', 'u561911775_Stafen');
+    define('DB_NAME', 'u561911775_rockteraasset');
 }
 
 ?>
