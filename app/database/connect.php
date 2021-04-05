@@ -1,9 +1,9 @@
 <?php
 
-$host = 'HOST';
-$user = 'DB_USER';
-$pass = 'DB_PASS';
-$db_name = 'DB_NAME';
+$host = HOST;
+$user = DB_USER;
+$pass = DB_PASS;
+$db_name = DB_NAME;
 
 $conn = new mySQLi($host, $user, $pass, $db_name);
 
