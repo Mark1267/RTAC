@@ -1,9 +1,9 @@
 <?php
 
 $host = 'localhost';
-$user = 'u561911775_Stafen';
-$pass = 'Stafen1234';
-$db_name = 'u561911775_rockteraasset';
+$user = 'DB_USER';
+$pass = 'DB_PASS';
+$db_name = 'DB_NAME';
 
 $conn = new mySQLi($host, $user, $pass, $db_name);
 
