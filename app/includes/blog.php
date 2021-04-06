@@ -1,4 +1,3 @@
-
       <aside class="col-sm-3">
         <div class="widget heading_space">
           <form class="widget_search border-radius">
