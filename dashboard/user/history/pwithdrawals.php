@@ -1,6 +1,7 @@
 <?php 
 include('../../../path.php');
 include(ROOT_PATH . '/app/controllers/accounts.php');
+usersOnly();
 $transactions = selectAll('transactions', ['nature' => 0, 'user_id' => $_SESSION['id'], 'status' => 0]);
 $totalD = sum('transactions', 'amount', ['nature' => 0, 'user_id' => $_SESSION['id'], 'status' => 0]);
 $title = 'Pending Withdrawals';

@@ -21,7 +21,7 @@ $title = 'Edit Plan';
                     <div class="col-xl-10 mx-auto">
                         <div class="card">
                             <div class="card-header">
-                                <h5>Plan</h5><small>Add a Plan</small>
+                                <h5>Plan</h5><small>Edit a Plan</small>
                             </div>
                             <div class="card-body">
                                 <form class="form" method="post" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" enctype="multipart/form-data">
@@ -36,8 +36,9 @@ $title = 'Edit Plan';
                                                     <label class="custom-file-label border-primary" for="image">Choose file 1</label>
                                                 </div>
                                             </div>
-                                            <small class="badge-light-danger text-danger"><?php echo $errors['image'];?></small>
-                                            <small class="badge-light-danger text-danger"><?php echo $errors['image1'];?></small>
+                                            <small class="badge-light-danger text-danger"><?php echo $errors['empty']; ?></small>
+                                                <small class="badge-light-danger text-danger"><?php echo $errors['failed']; ?></small>
+                                                <small class="badge-light-danger text-danger"><?php echo $errors['type']; ?></small>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="form-group">

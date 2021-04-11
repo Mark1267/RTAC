@@ -1,6 +1,7 @@
 <?php 
 include('../../../path.php');
 include(ROOT_PATH . '/app/controllers/accounts.php');
+usersOnly();
 $transactions = selectAll('transactions', ['nature' => 1, 'user_id' => $_SESSION['id'], 'status' => 1]);
 $totalD = sum('transactions', 'amount', ['nature' => 1, 'user_id' => $_SESSION['id'], 'status' => 1]);
 $title = 'Investments';

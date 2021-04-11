@@ -1,6 +1,7 @@
 <?php 
 include('../../path.php');
 include(ROOT_PATH . '/app/controllers/users.php');
+usersOnly();
 $code = selectOne('codes', ['user_id' => $_SESSION['id']]);
 $totalPages = count(selectAll($table, ['ref' => $_SESSION['id']])) / $results_per_page;
 $users = selectAllLimits($table, ['ref' => $_SESSION['id']], $start, $results_per_page);

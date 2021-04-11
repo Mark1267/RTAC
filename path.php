@@ -26,4 +26,6 @@ if($LOCAL){
     define('DB_NAME', 'u561911775_rockteraasset');
 }
 
+include('reuseables.php');
+
 ?>

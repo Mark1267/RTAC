@@ -204,39 +204,13 @@ if (isset($_POST['complete-profile'])) {
     $errors = $genErrors[0];
     $subMainError = $genErrors[1];
     if ($_SESSION['image'] === 'male-avatar.svg') {
-        if (!empty($_FILES['image']['name'])) {
-            $image_name = time() . '_' . $_FILES['image']['name'];
-            $destination = ROOT_PATH . "/assets/dashboard/images/user/" . $image_name;
-
-            $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
-
-            if ($result) {
-                $_POST['image'] = $image_name;
-                $user_id = update($table, $_SESSION['id'], ['image' => $image_name]);
-                $errors['euimg'] = '';
-            } else {
-                array_push($subMainError, 'Failed To Upload Images');
-                $errors['euimg'] = 'Failed to upload image';
-            }
-        $errors['img'] = '';
-        } else {
-            array_push($subMainError, 'Post Image Required');
-            $errors['img'] = 'Profile Image Required!!';
-        }
+        $genE = upload(ROOT_PATH . "/assets/dashboard/images/users/", XIMAGE, 'image');
+        $subMainError = array_merge($genE[0], $subMainError);
+        $errors = array_merge($genE[1], $errors);
     }elseif (!empty($_FILES['image']['name'])) {
-        $image_name = time() . '_' . $_FILES['image']['name'];
-        $destination = ROOT_PATH . "/assets/dashboard/images/user/" . $image_name;
-
-        $result = move_uploaded_file($_FILES['image']['tmp_name'], $destination);
-
-        if ($result) {
-            $_POST['image'] = $image_name;
-            $user_id = update($table, $_SESSION['id'], ['image' => $image_name]);
-            $errors['euimg'] = '';
-        } else {
-            array_push($subMainError, 'Failed To Upload Image');
-            $errors['euimg'] = 'Failed to upload image';
-        }
+        $genE = upload(ROOT_PATH . "/assets/dashboard/images/users/", XIMAGE, 'image');
+        $subMainError = array_merge($genE[0], $subMainError);
+        $errors = array_merge($genE[1], $errors);
     }
     if(empty($_POST['password'])){
         unset($_POST['password']);

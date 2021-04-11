@@ -1,5 +1,6 @@
 <?php include('../../path.php'); 
 include(ROOT_PATH . '/app/controllers/accounts.php');
+usersOnly();
 
 $title = 'Deposit';
 #dd($_SESSION);
