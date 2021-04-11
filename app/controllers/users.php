@@ -1,6 +1,7 @@
 <?php 
 include(ROOT_PATH . '/app/database/db.php');
 include(ROOT_PATH .  '/app/helpers/funds.php');
+include(ROOT_PATH .  '/app/helpers/file_manger.php');
 include(ROOT_PATH .  '/app/helpers/math.php');
 include(ROOT_PATH .  '/app/helpers/mailer.php');
 include(ROOT_PATH .  '/app/helpers/middleware.php');
@@ -14,8 +15,8 @@ $errors['ef'] = $errors['el'] = $errors['eme'] = $errors['emei'] = '';
 $errors['unr'] = $errors['pr'] = $errors['pri'] = $errors['psl'] = '';
 $errors['cps'] = $errors['cpse'] = $errors['exe'] = $errors['et'] = '';
 $errors['efi'] = $errors['eli'] = $errors['em'] = $errors['emm'] = '';
-$errors['img'] = $errors['euimg'] = $errors['ph'] = $errors['exph'] = '';
-$errors['phone'] = '';
+$errors['empty'] = $errors['failed'] = $errors['ph'] = $errors['exph'] = '';
+$errors['phone'] = $errors['type'] = '';
 
 $table = 'users';
 

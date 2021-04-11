@@ -115,7 +115,7 @@ if(isset($_GET['id']) && isset($_GET['action'])){
     }
 }
 
-#accept & reverse withdrawals
+#accept & reverse withdrawals.
 if(isset($_GET['with_id']) && isset($_GET['action'])){
     adminOnly();
     if($_GET['action'] === 'accept'){
