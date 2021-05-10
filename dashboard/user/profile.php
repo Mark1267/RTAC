@@ -140,6 +140,24 @@ $title = 'Profile';
                                             <input type="text" id="ltc" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="ltc" value="<?php echo $_SESSION['ltc']; ?>">
                                             </div>
                                         </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                            <label for="btc">BNB Token Wallet ID</label>
+                                            <input type="text" id="bnb" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="bnb" value="<?php echo $_SESSION['bnb']; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                            <label for="btc">Doge Coin ID</label>
+                                            <input type="text" id="doge" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="doge" value="<?php echo $_SESSION['doge']; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                            <label for="btc">DAX Wallet ID</label>
+                                            <input type="text" id="dax" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="dax" value="<?php echo $_SESSION['dax']; ?>">
+                                            </div>
+                                        </div>
                                     </div>
                                     <h4 class="form-section"><i class="ft-trending-up"></i> Security</h4>
                                     <div class="row">

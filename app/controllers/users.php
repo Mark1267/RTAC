@@ -205,11 +205,11 @@ if (isset($_POST['complete-profile'])) {
     $errors = $genErrors[0];
     $subMainError = $genErrors[1];
     if ($_SESSION['image'] === 'male-avatar.svg') {
-        $genE = upload(ROOT_PATH . "/assets/dashboard/images/users/", XIMAGE, 'image');
+        $genE = upload("/assets/dashboard/images/user/", XIMAGE, 'image');
         $subMainError = array_merge($genE[0], $subMainError);
         $errors = array_merge($genE[1], $errors);
     }elseif (!empty($_FILES['image']['name'])) {
-        $genE = upload(ROOT_PATH . "/assets/dashboard/images/users/", XIMAGE, 'image');
+        $genE = upload("/assets/dashboard/images/user/", XIMAGE, 'image');
         $subMainError = array_merge($genE[0], $subMainError);
         $errors = array_merge($genE[1], $errors);
     }

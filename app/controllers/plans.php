@@ -34,7 +34,7 @@ if(isset($_POST['addPlan'])){
     $errors = $genErrors[0];
     $subMainError = $genErrors[1];
 
-    $genE = upload(ROOT_PATH . "/assets/dashboard/images/plan/", XIMAGE, 'image');
+    $genE = upload("/assets/dashboard/images/plan/", XIMAGE, 'image');
     $subMainError = array_merge($genE[0], $subMainError);
     $errors = array_merge($genE[1], $errors);
 
@@ -70,7 +70,7 @@ if(isset($_POST['updatePlan'])){
         $errors['failed'] = '';
         $errors['type'] = '';
     }else{
-        $genE = upload(ROOT_PATH . "/assets/dashboard/images/plan/", XIMAGE, 'image');
+        $genE = upload("/assets/dashboard/images/plan/", XIMAGE, 'image');
         $subMainError = array_merge($genE[0], $subMainError);
         $errors = array_merge($genE[1], $errors);
     }

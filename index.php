@@ -373,7 +373,15 @@ Rocktera Assets is run by traders and investment professionals combining decades
 </section>
 <!--Facts & Counters-->
 
-
+<section class="p-2 text-white" style="background: #73ae20; color: white;">
+  <div class="row">
+    <div class="col-12 text-center" style="padding: 20px;">
+      <h2 class="mb-4">Get The Highlight of ROCKTERA ASSETS</h2><br>
+      <h5 class=" border_radius" style="border: 2px solid white; padding: 10px; display: inline-block;"><i class="fa fa-download" aria-hidden="true"></i> Download Below</h5><br><br>
+      <a  class="btn-white text-uppercase border_radius" href="./assets/open/pdf/"> <i class="fa fa-download" aria-hidden="true"></i> Get To Know Us More</a>
+    </div>
+  </div>
+</section>
 <!--Video-->
 <section id="bg-video" class="padding">
   <div class="container">
@@ -464,23 +472,23 @@ Rocktera Assets is run by traders and investment professionals combining decades
     <div class="row">
       <div class="col-md-6">
           <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-  {
-  "width": "100%",
-  "height": "500",
-  "defaultColumn": "overview",
-  "screener_type": "crypto_mkt",
-  "displayCurrency": "USD",
-  "colorTheme": "light",
-  "locale": "en",
-  "isTransparent": false
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
+          <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+            {
+            "width": "100%",
+            "height": "500",
+            "defaultColumn": "overview",
+            "screener_type": "crypto_mkt",
+            "displayCurrency": "USD",
+            "colorTheme": "light",
+            "locale": "en",
+            "isTransparent": false
+          }
+            </script>
+          </div>
+          <!-- TradingView Widget END -->
       </div>
       <div class="col-sm-6">
         <div class="bg_call border_radius wow fadeInRight">

@@ -108,7 +108,7 @@ if (isset($_POST['addPost'])) {
     $errors = $genErrors[0];
     $subMainError = $genErrors[1];
     
-    $genE = upload(ROOT_PATH . "/assets/dashboard/images/posts/", XIMAGE, 'image');
+    $genE = upload("/assets/dashboard/images/posts/", XIMAGE, 'image');
     $subMainError = array_merge($genE[0], $subMainError);
     $errors = array_merge($genE[1], $errors);
 
@@ -138,7 +138,7 @@ if (isset($_POST['updatePost'])) {
         $errors['failed'] = '';
         $errors['type'] = '';
     }else{
-        $genE = upload(ROOT_PATH . "/assets/dashboard/images/posts/", XIMAGE, 'image');
+        $genE = upload("/assets/dashboard/images/posts/", XIMAGE, 'image');
         $subMainError = array_merge($genE[0], $subMainError);
         $errors = array_merge($genE[1], $errors);
     }
