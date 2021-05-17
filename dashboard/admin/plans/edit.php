@@ -18,6 +18,9 @@ $title = 'Edit Plan';
             </div>
             <div class="content-body">
                 <div class="row">
+                    <div class="col-12">
+                        <?php include(ROOT_PATH . '/app/includes/message.php'); ?>
+                    </div>
                     <div class="col-xl-10 mx-auto">
                         <div class="card">
                             <div class="card-header">

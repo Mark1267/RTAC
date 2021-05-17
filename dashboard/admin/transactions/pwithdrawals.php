@@ -19,6 +19,9 @@ $title = 'Pending Withdrawals';
             </div>
             <div class="content-body">
                 <div class="row">
+                    <div class="col-12">
+                        <?php include(ROOT_PATH . '/app/includes/message.php'); ?>
+                    </div>
                     <section id="configuration" style="width: 100% !important;">
                         <div class="row">
                             <div class="col-12">

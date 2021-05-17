@@ -18,7 +18,9 @@ $title = 'Plans';
             <div class="content-header row">
             </div>
             <div class="content-body row">
-                <?php include(ROOT_PATH . '/app/includes/message.php'); ?>
+                    <div class="col-12">
+                        <?php include(ROOT_PATH . '/app/includes/message.php'); ?>
+                    </div>
                 <?php foreach($plans as $plan): ?>
                     <div class="col-md-4">
                         <div class="card">

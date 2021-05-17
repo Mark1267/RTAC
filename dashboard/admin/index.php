@@ -17,7 +17,9 @@ $title = 'Dashboard';
             </div>
             <div class="content-body">
                 <div class="row">
-                                <?php include(ROOT_PATH . '/app/includes/message.php'); ?>
+                    <div class="col-12">
+                        <?php include(ROOT_PATH . '/app/includes/message.php'); ?>
+                    </div>
                     <div class="col-xl-3 col-lg-6 col-12">
                         <div class="card pull-up">
                             <div class="card-content">
