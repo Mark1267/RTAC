@@ -144,7 +144,7 @@ if(isset($_GET['with_id']) && isset($_GET['action'])){
         mailing($template_file, $swap_var);
         $_SESSION['message'] = 'Withdrawal Accepted';
         $_SESSION['type'] = 'success';
-        header('location:' . BASE_URL . '/dashboard/admin/withdrawal.php');
+        header('location:' . BASE_URL . '/dashboard/admin/transactions/withdrawals.php');
     }else{
         $fund = update($table2, $_GET['with_id'], ['status' => 0]); #change deposit status to false
         $transactions = selectOne($table2, ['id' => $_GET['with_id']]); #select the new updated deposit
