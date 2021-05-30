@@ -12,7 +12,7 @@ $title = 'Plans';
 <body>
 
 <?php include(ROOT_PATH . '/app/includes/header_open.php'); ?>
-    <section class="page_header" style="background-position: 50% -44px;">
+    <section class="page_header" style="background-image: url(<?php echo BASE_URL . '/assets/open/images/assets.jpg'?>) !important; background-position: bottom !important;">
         <div class="container">
             <div class="row">
             <div class="col-sm-12 text-center">

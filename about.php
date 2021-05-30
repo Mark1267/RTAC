@@ -10,7 +10,7 @@ $title = 'About Us';
 
 <body>
 <?php include(ROOT_PATH . '/app/includes/header_open.php'); ?>
-<section class="page_header" style="background-position: 50% -80px; background: url(https://fortescueinvestment.com/ui/images/page-header.jpg) no-repeat; padding: 110px 0;">
+<section class="page_header" style="background: url(<?php echo BASE_URL . '/assets/open/images/about.jpg'?>) !important;">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
@@ -37,7 +37,7 @@ $title = 'About Us';
 <section id="about" class="padding-top">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 padding-bottom"> <img src="https://fortescueinvestment.com/ui/images/about.jpg" alt="About Us" class="img-responsive"> </div>
+      <div class="col-sm-6 padding-bottom"> <img src="<?php echo BASE_URL . '/assets/open/images/about1.jpg'?>" alt="About Us" class="img-responsive"> </div>
       <div class="col-sm-6 about_right padding-bottom">
         <h2 class="bottom10">More About <span class="blue_t">Roctera Assets</span></h2>
         <p class="bottom30">Rocktera Digital Asset Management is an investment manager connecting traditional finance with the digital assets market. The firm deploys highly sophisticated low-latency algorithmic trading, pursuing a range of arbitrage strategies in both spot and derivative markets, as well as a range of directional buy-and-hold products. All funds are designed with institutional clients in mind. We apply strict transparency and execution efficiency criteria across our solutions, with a commitment to maintain market-leading standards for the crypto industry.</p>
@@ -90,7 +90,7 @@ $title = 'About Us';
                 <img src="https://assets.entrepreneur.com/content/3x2/2000/20170731092357-business-businessteam-working-training.jpeg" style="width: 100%; height: 240px" alt="video">
             </div>
             <div class="item">
-                <img src="https://www.saxonstrainingfacilities.com.au/blog/wp-content/uploads/2016/09/team-player-work.jpg" style="width: 100%; height: 240px" alt="video">
+                <img src="<?php echo BASE_URL . '/assets/open/images/trust2.jpg'?>" style="width: 100%; height: 240px" alt="video">
             </div>
         </div>
     </div>
@@ -108,7 +108,7 @@ $title = 'About Us';
       <div class="clearfix"></div>
       <div class="quality_wrap clearfix">
         <div class="col-md-6">
-          <div class="left"> <img src="https://fortescueinvestment.com/ui/images/quality.jpg" alt="quality"> </div>
+          <div class="left"> <img src="<?php echo BASE_URL . '/assets/open/images/trust.jpg'?>" alt="quality"> </div>
         </div>
         <div class="col-md-6">
             <div class="right">
@@ -177,7 +177,7 @@ $title = 'About Us';
       </div>
               <div class="col-md-6">
           <div class="do_media media bottom40">
-              <div class="media-left"> <a href="#"> <img class="media-object" src="https://fortescueinvestment.com/ui/images/about1.jpg" alt="What We Do"> </a> </div>
+              <div class="media-left"> <a href="#"> <img class="media-object" width="200px" src="<?php echo BASE_URL . '/assets/open/images/trust3.jpg'?>" alt="What We Do"> </a> </div>
             <div class="media-body">
               <h4 class="bottom10">Always Available</h4>
               <p class="heading_space">Our desktop, web, and mobile platforms put powerful tools into the hands of traders and investors – helping to level the playing field in the competitive world of trading and investing.</p>

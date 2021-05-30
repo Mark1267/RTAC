@@ -21,7 +21,7 @@ $title = $post['title'];
 
 
 <!-- PAGE TITLE -->
-<section class="page_header">
+<section class="page_header" style="background-image: url(<?php echo BASE_URL . '/assets/dashboard/images/posts/' . $post['image'];?>) !important;">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">

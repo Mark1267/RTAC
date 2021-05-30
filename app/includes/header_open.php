@@ -11,7 +11,7 @@
 
 
 <header class="layout_fifth">
-  <nav class="navbar navbar-default brand-center navbar-fixed white no-background bootsnav">
+  <nav class="navbar navbar-default brand-center navbar-fixed white bootsnav">
     <div class="container">      
       <div class="row">
         <div class="col-sm-12">

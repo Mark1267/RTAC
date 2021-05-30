@@ -12,147 +12,146 @@ $title = 'Home';
 <body>
 <?php include(ROOT_PATH . '/app/includes/header_open.php'); ?>
  
-
-
 <!--Slider Main-->
 <section class="rev_slider_wrapper">		
   <div id="rev_slider" class="rev_slider"  data-version="5.0">
     <ul>	
-    <!-- SLIDE  -->
+      <!-- SLIDE  -->
       <li data-transition="fade">
         <!-- MAIN IMAGE -->
         <img src="https://images.unsplash.com/photo-1490318134124-34dadea1b8b2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" data-bgposition="center center" data-bgfit="cover">							
-       <!-- LAYER NR. 1 -->
+        <!-- LAYER NR. 1 -->
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
         </h1>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1300"><p class="white_t">A trusted authority on digital currency investing, Rocktera provides secure access and diversified exposure to 
-        <br> the digital currency asset class.</p>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1300">
+          <p class="white_t">A trusted authority on digital currency investing, Rocktera provides secure access and diversified exposure to 
+          <br> the digital currency asset class.</p>
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
-        data-start="1600">
-        <a href="<?php echo BASE_URL . '/services'; ?>" class="btn-border-white text-uppercase border_radius">our services</a> 
-        <a href="<?php echo BASE_URL . '/contact'; ?>" class="text-uppercase border_radius btn-green">Get a quote</a>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
+          data-start="1600">
+          <a href="<?php echo BASE_URL . '/services'; ?>" class="btn-border-white text-uppercase border_radius">our services</a> 
+          <a href="<?php echo BASE_URL . '/signup'; ?>" class="text-uppercase border_radius btn-green">Sign Up Now</a>
         </div>
       </li>
       <li data-transition="fade">
         <img src="https://images.unsplash.com/photo-1599547693841-bd26b574910a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"  alt="" data-bgposition="center center" data-bgfit="cover">	
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
         </h1>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1300"><p class="white_t">We offer the most complete house renovating services in the country, from kitchen 
-        <br> design to bathroom remodeling.</p>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1300"><p class="white_t">We offer the most complete house renovating services in the country, from kitchen 
+          <br> design to bathroom remodeling.</p>
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
-        data-start="1600">
-         <a href="<?php echo BASE_URL . '/services'; ?>" class="btn-border-white text-uppercase border_radius">our services</a> 
-        <a href="<?php echo BASE_URL . '/contact'; ?>" class="text-uppercase border_radius btn-green">Get a quote</a>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
+          data-start="1600">
+          <a href="<?php echo BASE_URL . '/services'; ?>" class="btn-border-white text-uppercase border_radius">our services</a> 
+          <a href="<?php echo BASE_URL . '/contact'; ?>" class="text-uppercase border_radius btn-green">Get a quote</a>
         </div>
       </li>
       <li data-transition="fade">
         <!-- MAIN IMAGE -->
         <img src="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=749&q=80" alt="" data-bgposition="center center" data-bgfit="cover">							
-       <!-- LAYER NR. 1 -->
+        <!-- LAYER NR. 1 -->
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
         </h1>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1300"><p class="white_t">A trusted authority on digital currency investing, Rocktera provides secure access and diversified exposure to 
-        <br> the digital currency asset class.</p>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1300"><p class="white_t">A trusted authority on digital currency investing, Rocktera provides secure access and diversified exposure to 
+          <br> the digital currency asset class.</p>
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
-        data-start="1600">
-         <a href="<?php echo BASE_URL . '/services'; ?>" class="btn-border-white text-uppercase border_radius">our services</a> 
-        <a href="<?php echo BASE_URL . '/contact'; ?>" class="text-uppercase border_radius btn-green">Get a quote</a>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
+          data-start="1600">
+          <a href="<?php echo BASE_URL . '/signin'; ?>" class="btn-border-white text-uppercase border_radius">Sign In</a> 
+          <a href="<?php echo BASE_URL . '/signup'; ?>" class="text-uppercase border_radius btn-green">Sign Up</a>
         </div>
       </li>
       <li data-transition="fade">
         <img src="https://images.unsplash.com/photo-1597733336794-12d05021d510?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"  alt="" data-bgposition="center center" data-bgfit="cover">	
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1000"><span class="white_t">Invest in a </span> <strong class="blue_t">Digital Future</strong>
         </h1>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
-        data-start="1300"><p class="white_t">A trusted authority on digital currency investing, Rocktera provides secure access and diversified exposure to 
-        <br> the digital currency asset class.</p>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"  							 
+          data-start="1300"><p class="white_t">A trusted authority on digital currency investing, Rocktera provides secure access and diversified exposure to 
+          <br> the digital currency asset class.</p>
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
-        data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-        data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
-        data-responsive_offset="on"
-        data-transform_idle="o:1;"
-        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
-		  data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
-        data-start="1600">
-         <a href="<?php echo BASE_URL . '/services'; ?>" class="btn-border-white text-uppercase border_radius">our services</a> 
-        <a href="<?php echo BASE_URL . '/contact'; ?>" class="text-uppercase border_radius btn-green">Get a quote</a>
+          data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
+          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-responsive_offset="on"
+          data-transform_idle="o:1;"
+          data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
+          data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" 							 
+          data-start="1600">
+          <a href="<?php echo BASE_URL . '/services'; ?>" class="btn-border-white text-uppercase border_radius">our services</a> 
+          <a href="<?php echo BASE_URL . '/contact'; ?>" class="text-uppercase border_radius btn-green">Get a quote</a>
         </div>
       </li>
     </ul>				
@@ -160,18 +159,19 @@ $title = 'Home';
 </section>
 
 <!--Good Plan-->
-<section id="plans" class="padding-top">
+<section id="plans" class="padding-to" style="padding-top: 20px;">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center wow fadeInDown">
         <h2 class="text-capitalize bottom10">Who we <span class="blue_t">Are</span></h2>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 content_left top40">
-        <figure> <img src="https://fortescueinvestment.com/ui/images/good-plans.jpg" alt="Good Plans" class="img-responsive"></figure>
+        <figure> <img src="<?php echo BASE_URL . '/assets/open/images/plans.jpg'?>" alt="Good Plans" class="img-responsive"></figure>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 right top40">
         <p class="bottom20">Established in 2015, Rocktera is a trusted authority on digital asset investment
-Rocktera Assets is run by traders and investment professionals combining decades of investment experience gained in major Wall Street banks, including Bankers Trust, Goldman Sachs, JPMorgan, Morgan Stankey, BofA Merrill Lynch, UBS, and Rothschild, as well as global hedge funds.</p>
+          Rocktera Assets is run by traders and investment professionals combining decades of investment experience gained in major Wall Street banks, including Bankers Trust, Goldman Sachs, JPMorgan, Morgan Stankey, BofA Merrill Lynch, UBS, and Rothschild, as well as global hedge funds.
+        </p>
         <h4 class="bottom10">Rocktera Assets</h4>
         <span class="bottom20" style="margin-bottom: 40px !important;">An investment firm that offers a range of digital asset strategy solutions to institutional investors.</span><br>
         <p class="bottom20">This experience is further complemented by the managers' academic backgrounds in mathematics, econometrics and computer engineering with degrees from Wharton, LSE, and the University of Oxford.</p>
@@ -186,8 +186,8 @@ Rocktera Assets is run by traders and investment professionals combining decades
 <section id="info" class="padding">
   <div class="container">
     <div class="row">
-        <div class="col-sm-12 text-right wow fadeInDown" data-wow-delay="500ms">
-       <div id="google_translate_element" style=" max-width: 100%; "></div>
+      <div class="col-sm-12 text-right wow fadeInDown" data-wow-delay="500ms">
+        <div id="google_translate_element" style=" max-width: 100%; "></div>
       </div>
         
       <div class="col-sm-12 text-center wow fadeInDown" data-wow-delay="500ms">
@@ -218,8 +218,6 @@ Rocktera Assets is run by traders and investment professionals combining decades
         </div>
       </div>
     </div>
-
-
     <div class="row">
       <div class="col-sm-4 number-counters text-center">
         <div class="text_box counters-item top40 wow fadeIn" data-wow-delay="700ms">
@@ -387,7 +385,7 @@ Rocktera Assets is run by traders and investment professionals combining decades
   <div class="container">
     <div class="row">
       <div class="col-sm-6 video wow fadeInLeft"  data-wow-delay="500ms">
-        <img src="https://fortescueinvestment.com/ui/images/video-img.jpg" alt="video">
+        <img src="<?php echo BASE_URL . '/assets/open/images/video2.jpg'?>" alt="video">
        <a href="https://player.vimeo.com/video/102732914?title=0&amp;byline=0&amp;portrait=0&amp;color=8ac832&amp;wmode=opaque" 
       class="html5lightbox video-btn" data-width="900" data-height="420" title="Rocktera Assets in partnership with.. "><i class="icon-play2"></i></a> 
       </div>
@@ -459,7 +457,7 @@ Rocktera Assets is run by traders and investment professionals combining decades
                 <img src="https://assets.entrepreneur.com/content/3x2/2000/20170731092357-business-businessteam-working-training.jpeg" style="width: 100%; height: 240px" alt="video">
             </div>
             <div class="item">
-                <img src="https://www.saxonstrainingfacilities.com.au/blog/wp-content/uploads/2016/09/team-player-work.jpg" style="width: 100%; height: 240px" alt="video">
+                <img src="<?php echo BASE_URL . '/assets/open/images/trust2.jpg'?>" style="width: 100%; height: 240px" alt="video">
             </div>
         </div>
     </div>
@@ -476,16 +474,16 @@ Rocktera Assets is run by traders and investment professionals combining decades
             <div class="tradingview-widget-container__widget"></div>
             <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
             <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-            {
-            "width": "100%",
-            "height": "500",
-            "defaultColumn": "overview",
-            "screener_type": "crypto_mkt",
-            "displayCurrency": "USD",
-            "colorTheme": "light",
-            "locale": "en",
-            "isTransparent": false
-          }
+              {
+                "width": "100%",
+                "height": "500",
+                "defaultColumn": "overview",
+                "screener_type": "crypto_mkt",
+                "displayCurrency": "USD",
+                "colorTheme": "light",
+                "locale": "en",
+                "isTransparent": false
+              }
             </script>
           </div>
           <!-- TradingView Widget END -->
@@ -495,25 +493,25 @@ Rocktera Assets is run by traders and investment professionals combining decades
           <h2 class="bottom10 text-center">Request a <span class="blue_t">Call Back</span></h2>
           <p class="text-center bottom20">If you need to speak to us about a general query fill in the form below and we will call you back within the same working day.</p>
           <form class="callus">
-          <div class="row">
-            <div class="col-sm-6 form-group">
-               <input type="text" class="form-control" placeholder="Your Name">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+              </div>
+              <div class="col-sm-6 form-group">
+                <input type="tel" class="form-control" placeholder="Phone Number">
+              </div>
+              <div class="col-sm-12 form-group">
+                <div class="select border_radius">
+                    <select id="discuss">
+                      <option selected>Discussions with Financial Experts</option>
+                      <option>Discussions with Financial Experts</option>
+                      <option>Discussions with Financial Experts</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-green top10 border_radius text-uppercase">Submit</button>
+              </div>
             </div>
-            <div class="col-sm-6 form-group">
-               <input type="tel" class="form-control" placeholder="Phone Number">
-            </div>
-            <div class="col-sm-12 form-group">
-               <div class="select border_radius">
-                  <select id="discuss">
-                    <option selected>Discussions with Financial Experts</option>
-                    <option>Discussions with Financial Experts</option>
-                    <option>Discussions with Financial Experts</option>
-                  </select>
-               </div>
-               <button type="submit" class="btn-green top10 border_radius text-uppercase">Submit</button>
-            </div>
-          </div>
-        </form>
+          </form>
         </div>
       </div>
     </div>
@@ -533,32 +531,32 @@ Rocktera Assets is run by traders and investment professionals combining decades
     </div>
     <div class="row">
       <div id="news_slider1" class="owl-carousel">
-          <?php $posts = selectAllLimits('posts', [], 0, 10); ?>
-          <?php foreach($posts as $post): ?>
+        <?php $posts = selectAllLimits('posts', [], 0, 10); ?>
+        <?php foreach($posts as $post): ?>
           <?php $user = selectOne('users', ['id' => $post['user_id']]); ?>
-            <div class="item">
-                <div class="news">
-            <div class="image"><img width="100px" src="<?php echo BASE_URL . '/assets/dashboard/images/posts/' . $post['image']; ?>" alt="News"></div>
-            <div class="news_text">
-              <h4 class="bottom10"><a href="<?php echo BASE_URL . '/newsdetail.php?id=' . $post['id']; ?>"><?php echo $post['title']; ?></a></h4>
-              <?php echo html_entity_decode(substr($post['body'], 0, 550) . '...'); ?>
-               <ul class="news_crumb">
-                 <li><a href="#."><?php echo $user['firstname'] . ' ' . $user['lastname']; ?></a></li>
-                 <li><a href="#."><?php echo date('F j, Y', strtotime($post['created_at'])); ?></a></li>
-               </ul>
+          <div class="item">
+            <div class="news">
+              <div class="image"><img width="100px" src="<?php echo BASE_URL . '/assets/dashboard/images/posts/' . $post['image']; ?>" alt="News"></div>
+              <div class="news_text">
+                <h4 class="bottom10"><a href="<?php echo BASE_URL . '/newsdetail.php?id=' . $post['id']; ?>"><?php echo $post['title']; ?></a></h4>
+                <ul class="news_crumb">
+                  <li><a href="#."><?php echo $user['firstname'] . ' ' . $user['lastname']; ?></a></li>
+                  <li><a href="#."><?php echo date('F j, Y', strtotime($post['created_at'])); ?></a></li>
+                </ul>
+              </div>
             </div>
           </div>
-            </div>
-          <?php endforeach; ?>
+        <?php endforeach; ?>
       </div>
     </div>
   </div>
 </section>
 <!--News & Thought ends-->
 
-<?php include(ROOT_PATH . '/app/includes/clients.php'); ?>
-
-<?php include(ROOT_PATH . '/app/includes/footer_open.php'); ?>
-<?php include(ROOT_PATH . '/app/includes/link_open_bottom.php'); ?>
+<?php 
+  include(ROOT_PATH . '/app/includes/clients.php'); 
+  include(ROOT_PATH . '/app/includes/footer_open.php'); 
+  include(ROOT_PATH . '/app/includes/link_open_bottom.php');
+?>
 </body>
 </html>

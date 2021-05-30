@@ -13,7 +13,7 @@ $title = 'Our Services';
 
 
 <!--PAGE TITLE-->
-<section class="page_header">
+<section class="page_header" style="background-image: url(<?php echo BASE_URL . '/assets/open/images/servi1.jpg'?>) !important;">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">

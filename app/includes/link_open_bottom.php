@@ -21,6 +21,10 @@
 <script src="<?php echo BASE_URL . '/assets/open/'?>js/wow.min.js"></script>
 <script src="<?php echo BASE_URL . '/assets/open/'?>js/functions.js"></script>
 <script>
+    //LOADER
+        $(".loader").fadeOut(5000);
+  </script>
+<script>
      $("#news_slider, #news_slider1").owlCarousel({
           autoPlay: 4000,
           items: 3,

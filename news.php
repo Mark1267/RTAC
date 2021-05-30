@@ -14,7 +14,7 @@ $title = 'Blog Posts';
 <?php include(ROOT_PATH . '/app/includes/header_open.php'); ?>
 
 <!-- Page Title -->
-<section class="page_header">
+<section class="page_header" style="background-image: url(<?php echo BASE_URL . '/assets/open/images/assets.jpg'?>) !important;">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
