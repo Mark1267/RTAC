@@ -146,8 +146,8 @@ if (isset($_POST['signup']) || isset($_POST['adminAdd'])) {
                 $occupation = $_POST['occupation'];
            }
         }else{
-            $ref_id = selectOne('codes', ['ref' => $_POST['ref']]);
-            if($ref_id){
+            if(isset($_POST['ref'])){
+                $ref_id = selectOne('codes', ['ref' => $_POST['ref']]);
                 $_POST['ref'] = $ref_id['user_id'];
             }
             unset($_POST['signup']);
@@ -173,6 +173,9 @@ if (isset($_POST['signup']) || isset($_POST['adminAdd'])) {
          $cpassword = $_POST['cpassword'];
          $email = $_POST['email'];
          $username = $_POST['username'];
+         if(isset($_POST['ref'])){
+           $ref = $_POST['ref'];
+         }
     }
 }
 

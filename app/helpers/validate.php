@@ -81,7 +81,7 @@ function userVal($user){
         }else{
             $errors['pr'] = '';
         }
-        if (!empty($user['password']) && !preg_match($regexpassword, $user['password'])) {
+        /* if (!empty($user['password']) && !preg_match($regexpassword, $user['password'])) {
             array_push($error, 'Password:Invalid characters');
             $errors['pri'] = 'Password:Invalid characters';
         }else{
@@ -92,7 +92,7 @@ function userVal($user){
            $errors['psl'] = "Password Must contain 8 to 16 characters";
         }else{
             $errors['psl'] = '';
-        }
+        } */
     
         #cpassword
         if (empty($user['cpassword'])) {
@@ -160,7 +160,7 @@ function signinVal($user){
     }else{
         $errors['pr'] = '';
     }
-    if (!empty($user['password']) && !preg_match($regexpassword, $user['password'])) {
+    /* if (!empty($user['password']) && !preg_match($regexpassword, $user['password'])) {
         array_push($error, 'Password:Invalid characters');
         $errors['pri'] = 'Password:Invalid characters';
     }else{
@@ -171,7 +171,7 @@ function signinVal($user){
        $errors['psl'] = "Password Must contain 8 to 16 characters";
     }else{
         $errors['psl'] = '';
-    }
+    } */
     $genErrors = array($errors, $error);
     return $genErrors;
 }
@@ -184,7 +184,7 @@ function complete($user){
 
     #password
     if (!empty($user['password'])) {
-        if ($lenght <= 8 || $lenght >= 16) {
+        /* if ($lenght <= 8 || $lenght >= 16) {
         array_push($error, ucwords('Password Must contain 8 to 16 characters'));
         $errors['psl'] = "Password Must contain 8 to 16 characters";
         }else{
@@ -195,7 +195,7 @@ function complete($user){
             $errors['pri'] = 'Password:Invalid characters';
         }else{
             $errors['pri']  = '';
-        }
+        } */
     }else{
         $errors['psl'] = '';
         $errors['pri']  = '';
@@ -277,14 +277,25 @@ function accoutVal($account){
         $errors['currencyMatch'] = '';
     }
 
-
     #existing
     $existingName = selectAll('accounts', ['name'=> $account['name']]);
-    if($existingName){
+    if(isset($account['updateAccount'])){
+        if($existingName){
+            if($existingName[0]['name']=== $account['name']){
+                $errors['exn'] = '';
+            }else{
+                array_push($error, '11');
+                $errors['exn'] = 'Account name already existing.';
+            }
+        }else{
+            $errors['exn'] = '';
+        }
+    }elseif($existingName){
         array_push($error, '11');
         $errors['exn'] = 'Account name already existing.';
+    }else{
+        $errors['exn'] = '';
     }
-
     
     $genErrors = array($errors, $error);
     return $genErrors;
@@ -783,7 +794,7 @@ function passVal($user){
     }else{
         $errors['pr'] = '';
     }
-    if (!empty($user['password']) && !preg_match($regexpassword, $user['password'])) {
+    /* if (!empty($user['password']) && !preg_match($regexpassword, $user['password'])) {
         array_push($error, 'Password:Invalid characters');
         $errors['pri'] = 'Password:Invalid characters';
     }else{
@@ -794,7 +805,7 @@ function passVal($user){
        $errors['psl'] = "Password Must contain 8 to 16 characters";
     }else{
         $errors['psl'] = '';
-    }
+    } */
 
     #cpassword
     if (empty($user['cpassword'])) {
