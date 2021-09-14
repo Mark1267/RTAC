@@ -24,6 +24,7 @@ if($LOCAL){
     define('DB_USER', 'u561911775_Stafen');
     define('DB_PASS', 'Stafen1234');
     define('DB_NAME', 'u561911775_rockteraasset');
+    strpos($url, 'ttp://') ? header('location:' . BASE_URL) : 0;
 }
 
 include('reuseables.php');
