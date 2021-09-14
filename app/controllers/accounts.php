@@ -244,7 +244,7 @@ if(isset($_POST['deposit-btn'])){
             '#datetime#' => date('Y-m-d : h:i:s a')
         );
         mailing($template_file, $swap_var);
-        $swap_var["{TO_EMAIL}"] = 'info@rocktera-assets.com';
+        $swap_var["{TO_EMAIL}"] = 'support@rocktera-assets.com';
         mailing($template_file, $swap_var);
         
         header('location:' . BASE_URL . '/dashboard/user/promt.php?trans_id=' . $_POST['trans_id']);
@@ -295,7 +295,7 @@ if (isset($_POST['withdraw'])) {
                 '#datetime#' => date('Y-m-d : h:i:s a')
             );
             mailing($template_file, $swap_var);
-            $swap_var["{TO_EMAIL}"] = 'info@rocktera-assets.com';
+            $swap_var["{TO_EMAIL}"] = 'support@rocktera-assets.com';
             mailing($template_file, $swap_var);
             $_SESSION['message'] = '<b>Withdrawal Request</b> made successfully';
             $_SESSION['type'] = 'success';
