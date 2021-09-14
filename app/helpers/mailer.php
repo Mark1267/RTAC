@@ -57,9 +57,6 @@ try{
         //Recipients
         $mail->setFrom('support@rocktera-assets.com', 'RockTera Assets');
         $mail->addAddress($email_to, $swap_var['#name#'] . ' ' . $swap_var['#name2#']);
-        if ($swap_var['{EMAIL_TITLE}'] === 'Deposit Request' || $swap_var['{EMAIL_TITLE}'] === 'Withdrawal Request') {
-            $mail->addCC('info@rocktera-assets.com');
-        }
     
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML
