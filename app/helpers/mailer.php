@@ -51,11 +51,11 @@ try{
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
         $mail->Username   = MUSER;                    // SMTP username
         $mail->Password   = MPASS;                               // SMTP password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption PHPMailer::ENCRYPTION_SMTPS; `` encouraged 
-        $mail->Port       = 587;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_STARTTLS` above 587
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption PHPMailer::ENCRYPTION_STARTTLS; `` encouraged 
+        $mail->Port       = 465;                                    // TCP port to connect to, use 587 for `PHPMailer::ENCRYPTION_STARTTLS` above 587
     
         //Recipients
-        $mail->setFrom('support@rocktera-assets.com', 'RockTera Assets');
+        $mail->setFrom(MUSER, 'RockTera Assets');
         $mail->addAddress($email_to, $swap_var['#name#'] . ' ' . $swap_var['#name2#']);
     
         // Content
