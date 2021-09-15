@@ -132,7 +132,7 @@ if (isset($_POST['signup']) || isset($_POST['adminAdd'])) {
                 $feed_id = create('feeds', ['user_id' => $user_id, 'message' => $message, 'type' => 'success', 'status' => 1]);
                 $code = array('user_id' => $user_id, 'email' => generateRandomString($e_code, 32), 'phone' => generateRandomString($p_code, 9), 'ref' => generateRandomString($e_code, 7));
                 $code_id = create('codes', $code);
-                isset($_POST['admin']) ? $_SESSION['message'] = 'Admin addedd successfully' : $_SESSION['message'] = 'User addedd successfully';
+                isset($_POST['admin']) ? $_SESSION['message'] = 'Admin added successfully' : $_SESSION['message'] = 'User addedd successfully';
                 $_SESSION['type'] = 'success';
                 header('location:' . BASE_URL . '/dashboard/admin/');
                 exit();
