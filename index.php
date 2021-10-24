@@ -390,8 +390,9 @@ $title = 'Home';
     <div class="row">
       <div class="col-sm-6 video wow fadeInLeft"  data-wow-delay="500ms">
         <img src="<?php echo BASE_URL . '/assets/open/images/video2.jpg'?>" alt="video">
-       <a href="https://player.vimeo.com/video/102732914?title=0&amp;byline=0&amp;portrait=0&amp;color=8ac832&amp;wmode=opaque" 
-      class="html5lightbox video-btn" data-width="900" data-height="420" title="Rocktera Assets in partnership with.. "><i class="icon-play2"></i></a> 
+       <a href="<?php echo BASE_URL . '/signup'; ?>" 
+        class=" video-btn" data-width="900" data-height="420" title="Rocktera Assets in partnership with.. ">
+       </a> 
       </div>
       <div class="col-sm-6 right_content top40 bottom40 wow fadeInRight"  data-wow-delay="500ms">
         <h2 class="bottom30 text-capitalize">About  <span class="green_t">Rocktera Assets</span></h2>
