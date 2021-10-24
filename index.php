@@ -376,6 +376,10 @@ $title = 'Home';
     <div class="col-12 text-center" style="padding: 20px;">
       <h2 class="mb-4">Get The Highlight of ROCKTERA ASSETS</h2><br>
       <h5 class=" border_radius" style="border: 2px solid white; padding: 10px; display: inline-block;"><i class="fa fa-download" aria-hidden="true"></i> Download Below</h5><br><br>
+     <video width="100%" height="240" muted loop autoplay>
+  <source src="https://rocktera-assets.com/rockteraassets.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
       <a  class="btn-white text-uppercase border_radius" href="./assets/open/pdf/"> <i class="fa fa-download" aria-hidden="true"></i> Get To Know Us More</a>
     </div>
   </div>
