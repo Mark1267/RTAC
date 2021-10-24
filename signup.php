@@ -95,6 +95,18 @@ data-open="click" data-menu="vertical-menu" data-col="1-column">
                         <small class="text-danger"><?php echo $errors['ph']; ?></small>
                       </fieldset>
                       <div class="row">
+                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                            <label for="btc">BTC Wallet ID</label>
+                                            <input type="text" id="btc" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="btc">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-12">
+                                            <div class="form-group">
+                                            <label for="btc">ETH Wallet ID</label>
+                                            <input type="text" id="eth" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="eth">
+                                            </div>
+                                        </div>
                         <div class="col-12 col-md-6">
                           <fieldset class="form-group position-relative has-icon-left">
                             <input type="password" name="password" id="password" class="form-control"
