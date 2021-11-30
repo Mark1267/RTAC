@@ -48,7 +48,8 @@
             <center style="padding: 10px;"><p>Dalton House, 60 Windsor Ave,
 London, UK SW19 2RR</p>
             <span style="margin: 3px 7px;">Mail: support@rocktera-assets.com</span><br>
-            <span style="margin: 3px 7px;">Phone: (+44) 791-921-4075</span></center>
+            <p>+44 7919 214075</p>
+</center>
     </footer>
     </div>
 </body>
