@@ -69,7 +69,9 @@
             <p>Great to have you on board</p>
         </div>
             <center style="padding: 10px;"><p>Dalton House, 60 Windsor Ave, London SW19 2RR, United Kingdom</p>
-            <span style="margin: 3px 7px;">Mail: support@rocktera-assets.com</span></center>
+            <span style="margin: 3px 7px;">Mail: support@rocktera-assets.com</span>
+<p>+44 7919 214075</p>
+</center>
     </footer>
     </div>
 </body>
