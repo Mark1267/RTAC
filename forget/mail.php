@@ -26,7 +26,8 @@
         </div>
             <center style="padding: 10px;"><p>Unit 9-10 Allerton Road Central Park, Rugby, CV23 0PA, United Kingdom</p>
             <span style="margin: 3px 7px;">Mail: support@rocktera-assets.com</span><br>
-            <span style="margin: 3px 7px;">Phone: +4(474) 0136 5230</span></center>
+            <p>+44 7919 214075</p>
+</center>
     </footer>
     </div>
 </body>
