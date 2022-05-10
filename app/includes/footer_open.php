@@ -25,7 +25,20 @@
   </div>
 </div>
 <!--Contact info ends-->
-
+<style>
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+  div.fixed i {
+    fontsize: 30px;
+    color: #25D366;
+  }
+</style>
+<div class="fixed">
+  <i class="fa fa-whatsapp"></i>
+</div>
 <!--Footer-->
 <footer class="footer_top padding-top">
   <div class="container">
