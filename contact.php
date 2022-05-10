@@ -54,7 +54,8 @@ $title = 'Contact Us';
                 <span><i class="icon-phone4"></i></span>
                 <div class="text">
                   <h4>Phone</h4>
-                  <p>(+44) 791-921-4075</p>
+                  <!-- <p>(+44) 791-921-4075</p> -->
+                  <a href="https://wa.me/qr/NBLWI4BOX4BUO1">(+44) 791-921-4075</a>
                 </div>
                </div>
               </div>
