@@ -38,9 +38,7 @@ div.fixedi {
     border-radius: 7px;
   }*/
 </style>
-<div class="back-to fixedi">
-  <a href="https://wa.me/qr/NBLWI4BOX4BUO1"><i class="fa fa-whatsapp"></i></a>
-</div>
+
 <!--Footer-->
 <footer class="footer_top padding-top">
   <div class="container">
