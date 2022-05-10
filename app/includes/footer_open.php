@@ -27,17 +27,19 @@
 <!--Contact info ends-->
 <style>
 div.fixedi {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-}
-  div.fixedi i {
-    font-size: 30px;
+  right: none !important;
+  left: 20px !important;
     color: #25D366;
-  }
+    background: white;
+}
+/*  div.fixedi a {
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 7px;
+  }*/
 </style>
-<div class="fixedi">
-  <i class="fa fa-whatsapp"></i>
+<div class="back-to fixedi">
+  <a href="https://wa.me/qr/NBLWI4BOX4BUO1"><i class="fa fa-whatsapp"></i></a>
 </div>
 <!--Footer-->
 <footer class="footer_top padding-top">
