@@ -26,17 +26,17 @@
 </div>
 <!--Contact info ends-->
 <style>
-div.fixed {
+div.fixedi {
   position: fixed;
   bottom: 0;
   left: 0;
 }
-  div.fixed i {
-    fontsize: 30px;
+  div.fixedi i {
+    font-size: 30px;
     color: #25D366;
   }
 </style>
-<div class="fixed">
+<div class="fixedi">
   <i class="fa fa-whatsapp"></i>
 </div>
 <!--Footer-->
