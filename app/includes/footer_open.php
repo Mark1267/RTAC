@@ -4,8 +4,8 @@
     <div class="col-sm-3">
       <div class="contact_inner">
         <i class="icon-phone4"></i>
-        <h5><strong>(+44) 791-921-4075</strong></h5>
-        <a href="#.">info@rocktera-assets.com</a>
+        <h5><strong><a href="https://wa.me/qr/NBLWI4BOX4BUO1">(+44) 791-921-4075</a></strong></h5>
+        <a href="mailto:info@rocktera-assets.com">info@rocktera-assets.com</a>
       </div>
     </div>
     <div class="col-sm-3">
