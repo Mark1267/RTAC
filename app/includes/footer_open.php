@@ -26,7 +26,7 @@
 </div>
 <!--Contact info ends-->
 <style>
-fixedi {
+.fixedi {
   right: auto;
   left: 20px !important;
     color: #25D366;
