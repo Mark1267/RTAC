@@ -36,3 +36,6 @@
       });
 </script>
 <script src="//code.tidio.co/ocoiel1ecnrlrnm7zpwwfrumwfsjjanc.js" async></script>
+<div class="back-to fixedi">
+  <a href="https://wa.me/qr/NBLWI4BOX4BUO1"><i class="fa fa-whatsapp"></i></a>
+</div>
