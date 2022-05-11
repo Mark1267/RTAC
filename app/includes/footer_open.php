@@ -29,14 +29,12 @@
 .fixedi {
   right: auto;
   left: 20px !important;
-    color: #25D366;
+    color: #25D366 !important;
     background: white !important;
 }
-/*  div.fixedi a {
+.fixedi i {
     font-size: 40px;
-    padding: 10px;
-    border-radius: 7px;
-  }*/
+  }
 </style>
 
 <!--Footer-->
