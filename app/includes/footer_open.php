@@ -26,11 +26,11 @@
 </div>
 <!--Contact info ends-->
 <style>
-div.fixedi {
-  right: none !important;
+fixedi {
+  right: auto;
   left: 20px !important;
     color: #25D366;
-    background: white;
+    background: white !important;
 }
 /*  div.fixedi a {
     font-size: 40px;
