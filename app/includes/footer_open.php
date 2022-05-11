@@ -25,18 +25,6 @@
   </div>
 </div>
 <!--Contact info ends-->
-<style>
-.fixedi {
-  right: auto;
-  left: 20px !important;
-    color: #25D366 !important;
-    background: white !important;
-}
-.fixedi i {
-    font-size: 40px;
-  }
-</style>
-
 <!--Footer-->
 <footer class="footer_top padding-top">
   <div class="container">
