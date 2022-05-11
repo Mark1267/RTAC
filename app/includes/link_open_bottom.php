@@ -36,4 +36,23 @@
       });
 </script>
 <script src="//code.tidio.co/ocoiel1ecnrlrnm7zpwwfrumwfsjjanc.js" async></script>
-  <a class="back-to fixedi" href="https://wa.me/qr/NBLWI4BOX4BUO1"><i class="fa fa-whatsapp"></i></a>
+<style>
+.fixedi {
+  left: 20px !important;
+    color: #25D366 !important;
+    background: white !important;
+  border-radius: 50%;
+    bottom: 60px;
+    display: none;
+    height: 60px;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 40px;
+    z-index: 999;
+}
+.fixedi i {
+    font-size: 40px;
+  }
+</style>
+  <a class="fixedi" href="https://wa.me/qr/NBLWI4BOX4BUO1"><i class="fa fa-whatsapp"></i></a>
