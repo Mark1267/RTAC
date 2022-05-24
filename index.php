@@ -169,9 +169,7 @@ $title = 'Home';
         <figure> <img src="<?php echo BASE_URL . '/assets/open/images/plans.jpg'?>" alt="Good Plans" class="img-responsive"></figure>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 right top40">
-        <p class="bottom20">Established in 2015, Rocktera is a trusted authority on digital asset investment
-          Rocktera Assets is run by traders and investment professionals combining decades of investment experience gained in major Wall Street banks, including Bankers Trust, Goldman Sachs, JPMorgan, Morgan Stankey, BofA Merrill Lynch, UBS, and Rothschild, as well as global hedge funds.
-        </p>
+        <p class="bottom20"><b>No trading, we do the necessary earnings.</b> Simply sign up an account with us link your wallet address which is fully regulated and then fund it. We now take up the task of professional trading managements. With our industry leading trading signals and winning tactics, we are sure to turn your passive income into massive outcome with compounding reward of daily cashback profit on your deposit.</p>
         <h4 class="bottom10">Rocktera Assets</h4>
         <span class="bottom20" style="margin-bottom: 40px !important;">An investment firm that offers a range of digital asset strategy solutions to institutional investors.</span><br>
         <p class="bottom20">This experience is further complemented by the managers' academic backgrounds in mathematics, econometrics and computer engineering with degrees from Wharton, LSE, and the University of Oxford.</p>
