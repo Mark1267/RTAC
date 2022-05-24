@@ -368,7 +368,7 @@ $title = 'Home';
   </div>
 </section>
 <!--Facts & Counters-->
-
+<!--
 <section class="p-2 text-white" style="background: #73ae20; color: white;">
   <div class="row">
     <div class="col-12 text-center" style="padding: 20px;">
@@ -382,7 +382,8 @@ $title = 'Home';
     </div>
   </div>
 </section>
-<!--Video-->
+
+<!--Video--
 <section id="bg-video" class="padding">
   <div class="container">
     <div class="row">
@@ -401,8 +402,8 @@ $title = 'Home';
     </div>
   </div>
 </section>
-<!--Video ends-->
-
+<!--Video ends--
+-->
 <section id="team" class="pricesection padding-top padding-bottom-half light">
         <div class="row">
             <div class="col-sm-12 text-center wow fadeInDown animated" data-wow-delay="500ms" style="visibility: visible; animation-delay: 500ms; animation-name: fadeInDown;">
