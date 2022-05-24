@@ -169,11 +169,12 @@ $title = 'Home';
         <figure> <img src="<?php echo BASE_URL . '/assets/open/images/plans.jpg'?>" alt="Good Plans" class="img-responsive"></figure>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 right top40">
-<h4 class="bottom10">No trading, we do the necessary earnings.</h4>
-        <p class="bottom20">Simply sign up an account with us link your wallet address which is fully regulated and then fund it. We now take up the task of professional trading managements. With our industry leading trading signals and winning tactics, we are sure to turn your passive income into massive outcome with compounding reward of daily cashback profit on your deposit.</p>
-        <h4 class="bottom10">Rocktera Assets</h4>
+<h4 class="bottom10">Rocktera Assets</h4>
         <!-- <span class="bottom20" style="margin-bottom: 40px !important;">An investment firm that offers a range of digital asset strategy solutions to institutional investors.</span><br> -->
         <p class="bottom20">Rocktera Digital Asset Management is a daily return of investment(ROI) firm that offers a range of digital asset strategy solutions that provides the opportunity to earn stable profit due to passive cryptocurrency investments to help clients achieve their goals through our provided investment network.</p>
+        
+<h4 class="bottom10">No trading, we do the necessary earnings.</h4>
+        <p class="bottom20">Simply sign up an account with us link your wallet address which is fully regulated and then fund it. We now take up the task of professional trading managements. With our industry leading trading signals and winning tactics, we are sure to turn your passive income into massive outcome with compounding reward of daily cashback profit on your deposit.</p>
         <a href="<?php echo BASE_URL . '/signin'; ?>" class="text-uppercase border_radius btn-green">read more</a>
       </div>
     </div>
