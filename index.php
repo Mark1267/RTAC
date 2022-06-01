@@ -171,8 +171,9 @@ $title = 'Home';
       <div class="col-lg-6 col-md-6 col-sm-6 right top40">
 <h4 class="bottom10">Rocktera Assets</h4>
         <!-- <span class="bottom20" style="margin-bottom: 40px !important;">An investment firm that offers a range of digital asset strategy solutions to institutional investors.</span><br> -->
-        <p class="bottom20">We bring a unique perspective to the world of trading. We assess a variety of different markets and trading instruments to create maximum profitability for our community. We utilise unique intra-day and swing trading strategies to provide profitability for our community in the financial markets. Our strategies seemlessly flow through the Forex and Cryptocurrency Markets. 
-Markets do not simply go up. We use this to our advantage.</p>
+<ul><li>
+        <p class="bottom20">We bring a unique perspective to the world of trading. We assess a variety of different markets and trading instruments to create maximum profitability for our community.</p> <li> <p class="bottom30">We utilise unique intra-day and swing trading strategies to provide profitability for our community in the financial markets.</p> <li> <p class="bottom30"> Our strategies seemlessly flow through the Forex and Cryptocurrency Markets. 
+Markets do not simply go up. We use this to our advantage.</p></li></ul>
 <h4 class="bottom10">No trading, we do the necessary earnings.</h4>
         <p class="bottom20">Simply sign up an account with us link your wallet address which is fully regulated and then fund it. We now take up the task of professional trading managements. With our industry leading trading signals and winning tactics, we are sure to turn your passive income into massive outcome with compounding reward of daily cashback profit on your deposit.</p>
         <a href="<?php echo BASE_URL . '/signin'; ?>" class="text-uppercase border_radius btn-green">read more</a>
