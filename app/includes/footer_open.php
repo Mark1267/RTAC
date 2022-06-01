@@ -31,7 +31,7 @@
     <div class="row">
       <div class="col-sm-4 footer_panel heading_space">
         <a href="<?php echo BASE_URL . '/'; ?>"  class="footer_logo bottom30 light" style="padding: 5px; border-radius: 3px;"><img src="<?php echo BASE_URL . '/assets/open/';?>images/logo-home5.png" style="width: 140px;" alt="rocktera"></a>
-        <p class="bottom30">Rocktera Digital Asset Management is an investment manager connecting traditional finance with the digital assets market. The firm deploys highly sophisticated low-latency algorithmic trading, pursuing a range of arbitrage strategies in both spot and derivative markets, as well as a range of directional buy-and-hold products. </p>
+        <p class="bottom30">Rocktera-assets investment company is fully licensed by UK Government to operate as UK stock Companies, the company is legally registered and certified by the UK Chamber of Commerce and specializes in helping clients achieve their goals through the provided investment network and your money is equally insured by your insurance policy.</p>
         <ul class="social_icon">
           <li><a href="#." class="facebook"><i class="fa fa-facebook"></i></a></li>
           <li><a href="#." class="instagram"><i class="icon-instagram"></i></a></li>
