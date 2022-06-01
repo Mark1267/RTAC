@@ -187,9 +187,9 @@ Markets do not simply go up. We use this to our advantage.</p></li></ul>
 <section id="info" class="padding">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 text-right wow fadeInDown" data-wow-delay="500ms">
+      <!-- <div class="col-sm-12 text-right wow fadeInDown" data-wow-delay="500ms">
         <div id="google_translate_element" style=" max-width: 100%; "></div>
-      </div>
+      </div> -->
         
       <div class="col-sm-12 text-center wow fadeInDown" data-wow-delay="500ms">
         <h2 class="text-capitalize bottom10">Three Easy <span class="blue_t">Steps</span></h2>
