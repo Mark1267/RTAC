@@ -399,8 +399,8 @@ Markets do not simply go up. We use this to our advantage.</p>
         <h2 class="bottom30 text-capitalize">About  <span class="green_t">Rocktera Assets</span></h2>
         <p class="bottom30">Rocktera-assets investment company is fully licensed by UK Government to operate as UK stock Companies,
  the company is legally registered and certified by the UK Chamber of Commerce and specializes in helping clients achieve their goals through the provided investment network and your money is equally insured by your insurance policy.</p>
-        <p class="bottom30"> All funds are designed with institutional clients in mind. We apply strict transparency and execution efficiency criteria across our solutions, with a commitment to maintain market-leading standards for the crypto industry.</p>
-        <a href="<?php echo BASE_URL . '/signin'; ?>" class="btn-white text-uppercase border_radius">get started</a>
+        <!-- <p class="bottom30"> All funds are designed with institutional clients in mind. We apply strict transparency and execution efficiency criteria across our solutions, with a commitment to maintain market-leading standards for the crypto industry.</p>
+        --><a href="<?php echo BASE_URL . '/signin'; ?>" class="btn-white text-uppercase border_radius">get started</a>
       </div>
     </div>
   </div>
