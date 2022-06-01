@@ -36,6 +36,7 @@
           <li><a href="#." class="facebook"><i class="fa fa-facebook"></i></a></li>
           <li><a href="#." class="instagram"><i class="icon-instagram"></i></a></li>
         </ul>
+<div id="google_translate_element" style=" max-width: 100%; "></div>
       </div>
       <div class="col-sm-4 footer_panel heading_space">
       <h3 class="heading bottom30">Useful <span class="green_t">Links</span></h3>
