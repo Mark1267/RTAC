@@ -50,6 +50,7 @@
                     </ul>
                 </li> 
                 <li><a href="<?php echo BASE_URL . '/contact'; ?>">Contact</a></li>
+                <li><div id="google_translate_element" style=" max-width: 100%; "></div></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div>

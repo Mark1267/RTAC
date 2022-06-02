@@ -23,7 +23,7 @@ $title = 'Home';
         <!-- LAYER NR. 1 -->
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-y="['300','200','180','center']" data-voffset="['0','0','0','0']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -32,7 +32,7 @@ $title = 'Home';
         </h1>
         <div class="tp-caption tp-resizeme text-center" 							
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
+          data-y="['365','265','240','center']" data-voffset="['0','0','0','100']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -43,7 +43,7 @@ $title = 'Home';
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-y="['440','340','300','center']" data-voffset="['0','0','0','100']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -57,7 +57,7 @@ $title = 'Home';
         <img src="https://images.unsplash.com/photo-1599547693841-bd26b574910a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"  alt="" data-bgposition="center center" data-bgfit="cover">	
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-y="['300','200','180','center']" data-voffset="['0','0','0','0']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -66,7 +66,7 @@ $title = 'Home';
         </h1>
         <div class="tp-caption tp-resizeme text-center" 							
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['365','265','240','205']" data-voffset="['0','0','0','0']"
+          data-y="['365','265','240','center']" data-voffset="['0','0','0','100']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -76,7 +76,7 @@ $title = 'Home';
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-y="['440','340','300','center']" data-voffset="['0','0','0','100']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -92,7 +92,7 @@ $title = 'Home';
         <!-- LAYER NR. 1 -->
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-y="['300','200','180','center']" data-voffset="['0','0','0','0']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -111,7 +111,7 @@ $title = 'Home';
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-y="['440','340','300','center']" data-voffset="['0','0','0','100']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -125,7 +125,7 @@ $title = 'Home';
         <img src="https://images.unsplash.com/photo-1597733336794-12d05021d510?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"  alt="" data-bgposition="center center" data-bgfit="cover">	
         <h1 class="tp-caption tp-resizeme uppercase text-center" 														
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['300','200','180','130']" data-voffset="['0','0','0','0']"
+          data-y="['300','200','180','center']" data-voffset="['0','0','0','0']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -144,7 +144,7 @@ $title = 'Home';
         </div>
         <div class="tp-caption tp-resizeme text-center" 							
           data-x="['center','center','center','center']" data-hoffset="['0','15','15','15']" 
-          data-y="['440','340','300','210']" data-voffset="['0','0','0','0']"
+          data-y="['440','340','300','center']" data-voffset="['0','0','0','100']"
           data-responsive_offset="on"
           data-transform_idle="o:1;"
           data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;" 
@@ -386,7 +386,7 @@ Markets do not simply go up. We use this to our advantage.</p></li></ul>
   </div>
 </section>
 -->
-<!-- Video -->
+<!-- Video --
 <section id="bg-video" class="padding">
   <div class="container">
     <div class="row">
@@ -400,13 +400,13 @@ Markets do not simply go up. We use this to our advantage.</p></li></ul>
         <h2 class="bottom30 text-capitalize">About  <span class="green_t">Rocktera Assets</span></h2>
         <p class="bottom30">Rocktera-assets investment company is fully licensed by UK Government to operate as UK stock Companies,
  the company is legally registered and certified by the UK Chamber of Commerce and specializes in helping clients achieve their goals through the provided investment network and your money is equally insured by your insurance policy.</p>
-        <!-- <p class="bottom30"> All funds are designed with institutional clients in mind. We apply strict transparency and execution efficiency criteria across our solutions, with a commitment to maintain market-leading standards for the crypto industry.</p>
-        --><a href="<?php echo BASE_URL . '/signin'; ?>" class="btn-white text-uppercase border_radius">get started</a>
+        <-- <p class="bottom30"> All funds are designed with institutional clients in mind. We apply strict transparency and execution efficiency criteria across our solutions, with a commitment to maintain market-leading standards for the crypto industry.</p>
+        -><a href="<?php echo BASE_URL . '/signin'; ?>" class="btn-white text-uppercase border_radius">get started</a>
       </div>
     </div>
   </div>
 </section>
-<!--Video ends--
+<--Video ends--
 -->
 <section id="team" class="pricesection padding-top padding-bottom-half light">
         <div class="row">
