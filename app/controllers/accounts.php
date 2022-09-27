@@ -10,7 +10,7 @@ $error = array();
 
 #create account var
 $errors['name'] = $errors['exn'] = $errors['address'] = $errors['currency'] = '';
-$errors['currencyMatch'] = $name = $address = $currency = '';
+$errors['currencyMatch'] = $name = $address = $currency = $network = '';
 
 #deposit
 $errors['account'] = $errors['amount'] = $errors['plan_id'] = $errors['enough'] = ''; 
@@ -176,6 +176,7 @@ if(isset($_POST['addAccount'])){
         exit();
     }else{
         $name = $_POST['name'];
+        $network = $_POST['network'];
         $address = $_POST['address'];
         $currency = $_POST['currency'];
     }
@@ -201,6 +202,7 @@ if(isset($_POST['updateAccount'])){
     }else{
         $id = $_POST['id'];
         $name = $_POST['name'];
+        $network = $_POST['network'];
         $address = $_POST['address'];
         $currency = $_POST['currency'];
     }

@@ -1,6 +1,4 @@
 <?php 
-/* error_reporting(0); 
-define('', '');*/
 
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'){  
     $url = "https://";   
