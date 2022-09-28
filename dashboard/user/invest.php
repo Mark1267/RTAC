@@ -77,9 +77,9 @@ $title = 'Invest';
                                                 <option></option>
                                                 <?php foreach($accounts as $account):?>
                                                     <?php if(!empty($account_id) && $account_id = $account['id']):?>
-                                                        <option selected value="<?php echo $account['id']; ?>"><?php echo $account['name'] . '--->' . $account['currency'];?></option>
+                                                        <option selected value="<?php echo $account['id']; ?>"><?php echo $account['name'] . '--->' . $account['currency'] . '(' . $account['network'] . ')';?></option>
                                                     <?php else:?>
-                                                        <option value="<?php echo $account['id']; ?>"><?php echo $account['name'] . '--->' . $account['currency'];?></option>
+                                                        <option value="<?php echo $account['id']; ?>"><?php echo $account['name'] . '--->' . $account['currency'] . '(' . $account['network'] . ')';?></option>
                                                     <?php endif;?>
                                                 <?php endforeach; ?>
                                             </select>
