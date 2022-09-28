@@ -37,6 +37,7 @@ if(isset($_GET['acc_id'])){
     $name = $account['name'];
     $address = $account['address'];
     $currency = $account['currency'];
+    $network = $account['network'];
 }
 
 if(isset($_GET['trans_id'])){

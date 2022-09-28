@@ -50,6 +50,13 @@ $title = 'Edit Account';
                                                 <small class="badge-light-danger text-danger border-danger rounded"><?php echo $errors['currency'];?></small>
                                             </div>
                                         </div>
+                                        <div class="col-sm-12">
+                                            <div class="form-group">
+                                                <label class="floating-label" for="network">Network</label>
+                                                <input type="text" class="form-control border-primary" name="network" placeholder="ERC 20" autocomplete="on" value="<?php echo $network; ?>">
+                                                <small class="col-12">Eg. Bitcoin is BTC, Bitcoin Cash is BCH etc.<span class="text-danger"><br>Please Input the network eg. ERC 20, BEP20, TRX.</span></small>
+                                            </div>
+                                        </div>
                                         <div class="col-sm-6 mx-auto">
                                             <button type="submit" name="updateAccount" class="btn btn-block btn-success">Update</button>
                                         </div>
