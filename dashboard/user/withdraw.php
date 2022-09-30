@@ -12,7 +12,7 @@ $userAccount = array(
     'XPR' => $_SESSION['xpr'], 
     'BNB' => $_SESSION['bnb'], 
     'Doge' => $_SESSION['doge'], 
-    'DAX' => $_SESSION['dax']
+    'DAX' => $_SESSION['dax'],
     'USDT(Tron)' => $_SESSION['usdt_tron'], 
     'USDT' => $_SESSION['usdt']
 );
