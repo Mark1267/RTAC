@@ -5,7 +5,17 @@ usersOnly();
 include(ROOT_PATH . '/app/includes/user_dash_dependances.php');
 $currentInvest = sum('funds', 'currentInvestment', ['user_id' => $_SESSION['id']]);
 $accounts = selectAll('accounts');
-$userAccount = array('Bitcoin' => $_SESSION['btc'], 'Ethereum' => $_SESSION['eth'], 'Lite Coin' => $_SESSION['ltc'], 'XPR' => $_SESSION['xpr'], 'BNB' => $_SESSION['bnb'], 'Doge' => $_SESSION['doge'], 'DAX' => $_SESSION['dax']);
+$userAccount = array(
+    'Bitcoin' => $_SESSION['btc'], 
+    'Ethereum' => $_SESSION['eth'], 
+    'Lite Coin' => $_SESSION['ltc'], 
+    'XPR' => $_SESSION['xpr'], 
+    'BNB' => $_SESSION['bnb'], 
+    'Doge' => $_SESSION['doge'], 
+    'DAX' => $_SESSION['dax']
+    'USDT(Tron)' => $_SESSION['usdt_tron'], 
+    'USDT' => $_SESSION['usdt']
+);
 #dd($userAccount);
 $fund = sum('funds', 'currentInvestment', ['user_id' => $_SESSION['id']]);
 

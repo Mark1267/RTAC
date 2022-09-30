@@ -158,6 +158,18 @@ $title = 'Profile';
                                             <input type="text" id="dax" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="dax" value="<?php echo $_SESSION['dax']; ?>">
                                             </div>
                                         </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                            <label for="usdt_tron">USDT(Tron)</label>
+                                            <input type="text" id="usdt_tron" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="usdt_tron" value="<?php echo $_SESSION['usdt_tron']; ?>">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                            <label for="usdt">USDT</label>
+                                            <input type="text" id="usdt" class="form-control border-primary" placeholder="T5dcY78skmI5dawQ1Vtfds5MkO02Xrf" name="usdt" value="<?php echo $_SESSION['usdt']; ?>">
+                                            </div>
+                                        </div>
                                     </div>
                                     <h4 class="form-section"><i class="ft-trending-up"></i> Security</h4>
                                     <div class="row">
