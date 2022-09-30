@@ -27,6 +27,17 @@ if(isset($_GET['plan_id'])){
     $dailyPercent = $plan['dailyPercent'];
 }
 
+//delete plan
+if(isset($_GET['del_id'])){
+    adminOnly();
+    $id = $_GET['del_id'];
+    delete($table, $id);
+    $_SESSION['message'] = 'Plan deleted successfully';
+        $_SESSION['type'] = 'success';
+        header('location:' . BASE_URL . '/dashboard/admin/plans/');
+        exit();
+}
+
 #addPlan
 if(isset($_POST['addPlan'])){
     adminOnly();
