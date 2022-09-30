@@ -32,7 +32,7 @@ $title = 'Plans';
                                         <li><i class="fa fa-check-double text-success"></i><?php echo $plan['dailyPercent']?>% Daily Return</li>
                                         <li><i class="fa fa-check-double text-success"></i><?php echo $plan['ROI']?> Days Return On Investment</li>
                                         <li><i class="fa fa-check-double text-success"></i>$<?php echo $plan['min']?> Minimum Investment</li>
-                                        <li><i class="fa fa-check-double text-success"></i>$<?php echo $plan['max'] < 999999 ? 'Unlimited' : $plan['max']; ?> Maximum Investment</li>
+                                        <li><i class="fa fa-check-double text-success"></i>$<?php echo $plan['max'] > 999999 ? 'Unlimited' : $plan['max']; ?> Maximum Investment</li>
                                         <li><i class="fa fa-check-double text-success"></i>10% Referal Bonus</li>
                                         <li><i class="fa fa-check-double text-success"></i>24/7 Customer Services</li>
                                     </ul>
