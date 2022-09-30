@@ -19,7 +19,7 @@
                                                 <h5 class="card-title"><?php echo $plan['dailyPercent']; ?> Daily Profit</h5>
                                                 <ul class="">
                                                     <li><i data-feather="check" class="text-success"></i> Min Investment: $<?php echo $plan['min']; ?>.00</li>
-                                                    <li><i data-feather="check" class="text-success"></i> Max. Investment: $<?php echo $plan['max']; ?>.00</li>
+                                                    <li><i data-feather="check" class="text-success"></i> Max. Investment: $<?php echo $plan['max'] < 999999 ? 'Unlimited' : $plan['max']; ?>.00</li>
                                                     <li><i data-feather="check" class="text-success"></i> ROI after <?php echo $plan['ROI']; ?> days</li>
                                                     <li><i data-feather="check" class="text-success"></i> 10% Referral Bonus</li>
                                                     <li><i data-feather="check" class="text-success"></i> 24/7 Customer Care</li>
