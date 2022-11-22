@@ -20,7 +20,7 @@ if($LOCAL){
     define('BASE_URL', 'https://rocktera-assets.com');
     define('HOST', 'localhost');
     define('DB_USER', 'u561911775_Stafen');
-    define('DB_PASS', 'Stafen1234');
+    define('DB_PASS', 'GZQ|hj&5T');
     define('DB_NAME', 'u561911775_rockteraasset');
     strpos($url, 'ttp://') ? header('location:' . BASE_URL) : 0;
 }
