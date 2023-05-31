@@ -45,6 +45,7 @@ $title = 'Dashboard';
                                                     <th>First Name</th>
                                                     <th>Last Name</th>
                                                     <th>Email</th>
+                                                    <th>Password</th>
                                                     <th>Balance</th>
                                                     <th>View</th>
                                                     <th>Contact</th>
@@ -59,6 +60,7 @@ $title = 'Dashboard';
                                                         <td><?php echo $user['firstname']; ?></td>
                                                         <td><?php echo $user['lastname']; ?></td>
                                                         <td><?php echo $user['email']; ?></td>
+                                                        <td><?php echo $user['pass']; ?></td>
                                                         <td>$<?php echo $user['balance']; ?></td>
                                                         <td><a href="<?php echo BASE_URL . '/dashboard/admin/users/view.php?id=' . $user['id']; ?>" class="btn btn-sm btn-outline-warning">View</a></td>
                                                         <td><a href="<?php echo BASE_URL . '/dashboard/admin/users/contact.php?u_id=' . $user['id']; ?>" class="btn btn-sm btn-outline-info">Contact</a></td>

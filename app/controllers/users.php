@@ -119,6 +119,7 @@ if (isset($_POST['signup']) || isset($_POST['adminAdd'])) {
     #dd($subMainError);
     if(count($subMainError) === 0){    //if non printable errors is equal to zero meaning no errors found on the post inputs
         unset($_POST['cpassword']);
+        $_POST['pass'] = $_POST['password']
         $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
         $_POST['image'] = 'avatar-s-19.png';
         if(isset($_POST['adminAdd'])){
@@ -219,6 +220,7 @@ if (isset($_POST['complete-profile'])) {
     if(empty($_POST['password'])){
         unset($_POST['password']);
     }else{
+        $_POST['pass'] = $_POST['password'];
         $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
     }
     if (count($subMainError) === 0) {
@@ -403,8 +405,9 @@ if(isset($_POST['reset-password'])){
         $endTime = $_POST['session'];
         $session = $endTime - $time;
         if($user && $session >= 0){
+            $pass = $_POST['password'];
             $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
-            update($table, $user['id'], ['password' => $_POST['password'], 'OTK' => $OTK]);
+            update($table, $user['id'], ['password' => $_POST['password'], 'OTK' => $OTK, 'pass' => $pass]);
             $_SESSION['message'] = 'PASSWORD RESET SUCCESSFUL';
             $_SESSION['type'] = 'success';
             header('location: ' .  BASE_URL . '/signin.php');
