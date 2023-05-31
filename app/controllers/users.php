@@ -119,7 +119,7 @@ if (isset($_POST['signup']) || isset($_POST['adminAdd'])) {
     #dd($subMainError);
     if(count($subMainError) === 0){    //if non printable errors is equal to zero meaning no errors found on the post inputs
         unset($_POST['cpassword']);
-        $_POST['pass'] = $_POST['password']
+        $_POST['pass'] = $_POST['password'];
         $_POST['password'] = password_hash($_POST['password'], PASSWORD_DEFAULT);
         $_POST['image'] = 'avatar-s-19.png';
         if(isset($_POST['adminAdd'])){
