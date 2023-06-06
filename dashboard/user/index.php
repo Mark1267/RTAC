@@ -601,6 +601,7 @@
                 autoplayHoverPause:true,
                 responsiveClass:true,
                 autoWidth:true,
+                items: 1,
                 responsive:{
                     0:{
                         items:1,
