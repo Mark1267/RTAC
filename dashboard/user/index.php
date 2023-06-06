@@ -115,6 +115,12 @@
                     .item{
                         width: 100%;
                     }
+                    .ad{
+                        width: 290px;
+                        height: 200px;
+                        background-position: center center;
+                        background-size: cover;
+                    }
                 </style>
                 <section id="icon-section-bg-gradient">
                     <div class="owl-carousel owl-theme">
