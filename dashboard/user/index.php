@@ -119,22 +119,22 @@
                 <section id="icon-section-bg-gradient">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="ad" style="background-image: url('<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>')">
+                            <div class="ad col-12" style="background-image: url('<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>')">
                                 <div class="ad_text">
                                     Make Payments
                                 </div>
                                 <div class="ad_image">
-                                    <img src="<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>" class="img-fuild" alt="">
+                                    <!-- <img src="<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>" class="img-fuild" alt=""> -->
                                 </div>
                             </div>
                         </div>
                         <div class="item">
-                            <div class="ad" style="background-image: url('<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>')">
+                            <div class="ad col-12" style="background-image: url('<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>')">
                                 <div class="ad_text">
                                     Make Payments
                                 </div>
                                 <div class="ad_image">
-                                    <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild" alt="">
+                                    <!-- <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild" alt=""> -->
                                 </div>
                             </div>
                         </div>
