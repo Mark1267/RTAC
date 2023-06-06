@@ -119,7 +119,7 @@
                 <section id="icon-section-bg-gradient">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <div class="ad">
+                            <div class="ad" style="background-image: url('<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>')">
                                 <div class="ad_text">
                                     Make Payments
                                 </div>
@@ -128,7 +128,17 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="item"> Your Content </div>
+                        <div class="item">
+                            <div class="ad" style="background-image: url('<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>')">
+                                <div class="ad_text">
+                                    Make Payments
+                                </div>
+                                <div class="ad_image">
+                                    <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="item"> Your Content </div> -->
                     </div>
                 </section>
                 <section id="icon-section-bg-gradient">
@@ -585,6 +595,10 @@
             $('.owl-carousel').owlCarousel({
                 loop:true,
                 margin:10,
+                center: true,
+                autoplay:true,
+                autoplayTimeout:1000,
+                autoplayHoverPause:true
                 responsiveClass:true,
                 autoWidth:true,
                 responsive:{
