@@ -116,7 +116,7 @@
                         width: 100%;
                     }
                     .ad{
-                        width: 290px;
+                        /* width: 290px; */
                         height: 200px;
                         background-position: center center;
                         background-size: cover;
