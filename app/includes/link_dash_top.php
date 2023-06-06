@@ -13,7 +13,7 @@
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css" rel="stylesheet">
     <!-- BEGIN VENDOR CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . '/assets/dashboard/'?>css/vendors.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . '/assets/dashboard/'?>vendors/css/tables/datatable/datatables.min.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . '/assets/dashboard/'?>vendors/css/tables/datatable/datatables.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . '/assets/dashboard/'?>vendors/css/forms/icheck/icheck.css">
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . '/assets/dashboard/'?>vendors/css/forms/icheck/custom.css">
     <!-- END VENDOR CSS-->
@@ -31,4 +31,5 @@
     <!-- BEGIN Custom CSS-->
     <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL . '/assets/dashboard/'?>css/style.css">
     <!-- END Custom CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>

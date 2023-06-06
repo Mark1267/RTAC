@@ -1,9 +1,10 @@
-<?php include('../../path.php'); 
-include(ROOT_PATH . '/app/controllers/users.php');
-usersOnly();
-include(ROOT_PATH . '/app/includes/user_dash_dependances.php');
-$currentInvest = sum('funds', 'currentInvestment', ['user_id' => $_SESSION['id']]);
-$title = 'Dashboard';
+<?php 
+    include('../../path.php'); 
+    include(ROOT_PATH . '/app/controllers/users.php');
+    usersOnly();
+    include(ROOT_PATH . '/app/includes/user_dash_dependances.php');
+    $currentInvest = sum('funds', 'currentInvestment', ['user_id' => $_SESSION['id']]);
+    $title = 'Dashboard';
 ?>
 <!DOCTYPE html>
 <html class="loading" lang="en" data-textdirection="ltr">
@@ -111,6 +112,17 @@ $title = 'Dashboard';
                 </div>
                 <!-- Candlestick Multi Level Control Chart -->
 
+                <section id="icon-section-bg-gradient">
+                    <div class="owl-carousel owl-theme">
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                        <div> Your Content </div>
+                    </div>
+                </section>
                 <section id="icon-section-bg-gradient">
                     <div class="row">
                         <div class="col-12 mt-3 mb-1">
@@ -560,6 +572,11 @@ $title = 'Dashboard';
         </div>
     </div>
     <?php include(ROOT_PATH . '/app/includes/link_dash_bottom.php'); ?>
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel();
+        });
+    </script>
 </body>
 
 </html>

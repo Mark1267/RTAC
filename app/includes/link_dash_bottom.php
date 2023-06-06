@@ -12,23 +12,23 @@
     <script type="text/javascript" src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/ui/jquery.sticky.js"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/vendors.min.js" type="text/javascript"></script>
     <!-- BEGIN VENDOR JS-->
-<script src="<?php echo BASE_URL . '/assets/dashboard/js/clipboard.min.js'; ?>"></script>
-<script type="text/javascript">
-        var iclp = new ClipboardJS('.i-block');
-        iclp.on('success', function(e) {
-            $(e.trigger).append("<span class='ic-badge badge badge-success'>copied</span>");
-            setTimeout(function() {
-                $('.i-block').children('.ic-badge').remove();
-            }, 3000);
-        });
+    <script src="<?php echo BASE_URL . '/assets/dashboard/js/clipboard.min.js'; ?>"></script>
+    <script type="text/javascript">
+            var iclp = new ClipboardJS('.i-block');
+            iclp.on('success', function(e) {
+                $(e.trigger).append("<span class='ic-badge badge badge-success'>copied</span>");
+                setTimeout(function() {
+                    $('.i-block').children('.ic-badge').remove();
+                }, 3000);
+            });
 
-        iclp.on('error', function(e) {
-            $(e.trigger).append("<span class='ic-badge badge badge-danger'>Error</span>");
-            setTimeout(function() {
-                $('.i-block').children('.ic-badge').remove();
-            }, 3000);
-        });
-</script>
+            iclp.on('error', function(e) {
+                $(e.trigger).append("<span class='ic-badge badge badge-danger'>Error</span>");
+                setTimeout(function() {
+                    $('.i-block').children('.ic-badge').remove();
+                }, 3000);
+            });
+    </script>
     <!-- BEGIN PAGE VENDOR JS-->
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/tables/buttons.flash.min.js" type="text/javascript"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/tables/jszip.min.js" type="text/javascript"></script>
@@ -55,3 +55,4 @@
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>js/scripts/editors/editor-ckeditor.js" type="text/javascript"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>js/scripts/tables/datatables/datatable-advanced.js" type="text/javascript"></script>
     <!-- END PAGE LEVEL JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
