@@ -125,11 +125,6 @@
                             </div>
                         </div>
                         <div class="item"> Your Content </div>
-                        <div> Your Content </div>
-                        <div> Your Content </div>
-                        <div> Your Content </div>
-                        <div> Your Content </div>
-                        <div> Your Content </div>
                     </div>
                 </section>
                 <section id="icon-section-bg-gradient">
