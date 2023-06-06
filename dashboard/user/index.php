@@ -124,7 +124,7 @@
                                     Make Payments
                                 </div>
                                 <div class="ad_image">
-                                    <img src="<?php echo BASE_URL . '/assets/dashboard/images/logo/logo.png' ?>" class="img-fuild" alt="">
+                                    <img src="<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>" class="img-fuild" alt="">
                                 </div>
                             </div>
                         </div>
@@ -586,13 +586,14 @@
                 loop:true,
                 margin:10,
                 responsiveClass:true,
+                autoWidth:true,
                 responsive:{
                     0:{
                         items:1,
-                        nav:true
+                        nav:false
                     },
                     600:{
-                        items:3,
+                        items:2,
                         nav:false
                     },
                     1000:{
