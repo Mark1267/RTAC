@@ -124,7 +124,7 @@
                     .slide-img{
                         width: 100%; 
                         height: 37px;
-                        border-raduis: 10px;
+                        border-radius: 6px;
                     }
                 </style>
                 <section id="icon-section-bg-gradient">
@@ -587,7 +587,7 @@
             $('.owl-carousel').owlCarousel({
                 loop:true,
                 margin:10,
-                center: true,
+                // center: true,
                 autoplay:true,
                 autoplayTimeout:1000,
                 autoplayHoverPause:true,
