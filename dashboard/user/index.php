@@ -114,8 +114,17 @@
 
                 <section id="icon-section-bg-gradient">
                     <div class="owl-carousel owl-theme">
-                        <div> Your Content </div>
-                        <div> Your Content </div>
+                        <div class="item">
+                            <div class="ad">
+                                <div class="ad_text">
+                                    Make Payments
+                                </div>
+                                <div class="ad_image">
+                                    <img src="<?php echo BASE_URL . '/assets/dashboard/images/logo/logo.png' ?>" class="img-fuild" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item"> Your Content </div>
                         <div> Your Content </div>
                         <div> Your Content </div>
                         <div> Your Content </div>
@@ -443,31 +452,31 @@
                             <div class="mt-1 card-content collapse show">
                                 <div class="card-body pt-0" style="overflow: scroll;">
                                     <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div id="tradingview_149bc"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=COINBASE" rel="noopener" target="_blank"><span class="blue-text">BTCUSD Chart</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
-  {
-  "width": 580,
-  "height": 410,
-  "symbol": "COINBASE:BTCUSD",
-  "interval": "60",
-  "timezone": "Etc/UTC",
-  "theme": "light",
-  "style": "1",
-  "locale": "en",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "hide_top_toolbar": true,
-  "save_image": false,
-  "container_id": "tradingview_149bc"
-}
-  );
-  </script>
-</div>
-<!-- TradingView Widget END -->
+                                    <div class="tradingview-widget-container">
+                                        <div id="tradingview_149bc"></div>
+                                        <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=COINBASE" rel="noopener" target="_blank"><span class="blue-text">BTCUSD Chart</span></a> by TradingView</div>
+                                        <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                                        <script type="text/javascript">
+                                            new TradingView.widget(
+                                            {
+                                                "width": 580,
+                                                "height": 410,
+                                                "symbol": "COINBASE:BTCUSD",
+                                                "interval": "60",
+                                                "timezone": "Etc/UTC",
+                                                "theme": "light",
+                                                "style": "1",
+                                                "locale": "en",
+                                                "toolbar_bg": "#f1f3f6",
+                                                "enable_publishing": false,
+                                                "hide_top_toolbar": true,
+                                                "save_image": false,
+                                                "container_id": "tradingview_149bc"
+                                                }
+                                            );
+                                        </script>
+                                    </div>
+                                    <!-- TradingView Widget END -->
                                 </div>
                             </div>
                         </div>
@@ -574,7 +583,26 @@
     <?php include(ROOT_PATH . '/app/includes/link_dash_bottom.php'); ?>
     <script>
         $(document).ready(function(){
-            $('.owl-carousel').owlCarousel();
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                responsiveClass:true,
+                responsive:{
+                    0:{
+                        items:1,
+                        nav:true
+                    },
+                    600:{
+                        items:3,
+                        nav:false
+                    },
+                    1000:{
+                        items:5,
+                        nav:true,
+                        loop:false
+                    }
+                }
+            });
         });
     </script>
 </body>

@@ -10,7 +10,7 @@
                         <?php else:?>
                             <a class="navbar-brand" href="<?php echo BASE_URL . '/dashboard/user/'; ?>">
                         <?php endif; ?>
-                            <img class="brand-logo" alt="modern admin logo" src="<?php echo BASE_URL . '/assets/dashboard/'?>images/logo/logo.png">
+                            <img class="brand-logo" alt="modern admin logo" src="<?php echo BASE_URL . '/assets/dashboard/images/logo/logo.png' ?>">
                             <h3 class="brand-text">Rocktera Assets</h3>
                         </a>
                     </li>
