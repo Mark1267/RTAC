@@ -121,11 +121,16 @@
                         background-position: center center;
                         background-size: cover;
                     }
+                    .slide-img{
+                        width: 100%; 
+                        height: 37px;
+                        border-raduis: 10px;
+                    }
                 </style>
                 <section id="icon-section-bg-gradient">
                     <div class="owl-carousel owl-theme">
-                        <img style="width: 100%; height: 37px;" src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild" alt="">
-                        <img style="width: 100%; height: 37px;" src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild" alt="">
+                        <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild slide-img" alt="">
+                        <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild slide-img" alt="">
                     </div>
                 </section>
                 <section id="icon-section-bg-gradient">
