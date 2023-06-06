@@ -130,7 +130,10 @@
                 <section id="icon-section-bg-gradient">
                     <div class="owl-carousel owl-theme">
                         <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild slide-img" alt="">
-                        <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild slide-img" alt="">
+                        <img src="<?php echo BASE_URL . '/assets/img/HELP.jpg' ?>" class="img-fuild slide-img" alt="">
+                        <img src="<?php echo BASE_URL . '/assets/img/SED.jpg' ?>" class="img-fuild slide-img" alt="">
+                        <img src="<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>" class="img-fuild slide-img" alt="">
+                        <!-- <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild slide-img" alt=""> -->
                     </div>
                 </section>
                 <section id="icon-section-bg-gradient">
@@ -589,7 +592,7 @@
                 margin:10,
                 // center: true,
                 autoplay:true,
-                autoplayTimeout:1000,
+                autoplayTimeout:3000,
                 autoplayHoverPause:true,
                 responsiveClass:true,
                 autoWidth:true,
