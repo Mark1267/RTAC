@@ -598,7 +598,7 @@
                 center: true,
                 autoplay:true,
                 autoplayTimeout:1000,
-                autoplayHoverPause:true
+                autoplayHoverPause:true,
                 responsiveClass:true,
                 autoWidth:true,
                 responsive:{
