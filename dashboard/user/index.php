@@ -111,7 +111,11 @@
                     </div>
                 </div>
                 <!-- Candlestick Multi Level Control Chart -->
-
+                <style>
+                    .item{
+                        width: 100%;
+                    }
+                </style>
                 <section id="icon-section-bg-gradient">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
