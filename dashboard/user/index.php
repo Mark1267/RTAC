@@ -112,8 +112,11 @@
                 </div>
                 <!-- Candlestick Multi Level Control Chart -->
                 <style>
-                    .item{
+                    .item, .owl-carousel .owl-stage{
                         width: 100%;
+                    }
+                    .cloned{
+                        /* display: none !important; */
                     }
                     .ad{
                         width: 350px;
@@ -121,18 +124,48 @@
                         background-position: center center;
                         background-size: cover;
                     }
-                    .slide-img{
-                        width: 100%; 
-                        height: 37px;
-                        border-radius: 6px;
+                    .sliddd {
+                        height: 200px !important;
                     }
                 </style>
-                <section id="icon-section-bg-gradient">
-                    <div class="owl-carousel owl-theme">
-                        <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild slide-img" alt="">
-                        <img src="<?php echo BASE_URL . '/assets/img/HELP.jpg' ?>" class="img-fuild slide-img" alt="">
-                        <img src="<?php echo BASE_URL . '/assets/img/SED.jpg' ?>" class="img-fuild slide-img" alt="">
-                        <img src="<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>" class="img-fuild slide-img" alt="">
+                <!-- autoplay swiper start -->
+                <section id="icon-section-bg-gradient sliddd">
+                    <div class="responsive">
+                        <!-- <div class="col-xl-4 col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media align-items-stretch">
+                                        <div class="p-2 text-center bg-info bg-darken-2 rounded-left">
+                                            <i class="icon-briefcase font-large-2 text-white"></i>
+                                        </div>
+                                        <div class="p-2 bg-gradient-x-info text-white media-body rounded-right">
+                                            <h5 class="text-white">Current Balance</h5>
+                                            <h5 class="text-white text-bold-400 mb-0">$<?php echo $_SESSION['balance'] + $currentInvest['SUM(currentInvestment)']; ?></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-12">
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="media align-items-stretch">
+                                        <div class="p-2 text-center bg-success bg-darken-2 rounded-left">
+                                            <i class="icon-grid font-large-2 text-white"></i>
+                                        </div>
+                                        <div class="p-2 bg-gradient-x-success text-white media-body rounded-right">
+                                            <h5 class="text-white">Available Balance</h5>
+                                            <h5 class="text-white text-bold-400 mb-0">$<?php echo $_SESSION['balance']; ?></h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div><img width="100%" src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild rounded" alt=""></div>
+                        <div><img width="100%" src="<?php echo BASE_URL . '/assets/img/HELP.jpg' ?>" class="img-fuild rounded" alt=""></div>
+                        <div><img width="100%" src="<?php echo BASE_URL . '/assets/img/SED.jpg' ?>" class="img-fuild rounded" alt=""></div>
+                        <div><img width="100%" src="<?php echo BASE_URL . '/assets/img/BUY.jpg' ?>" class="img-fuild rounded" alt=""></div>
                         <!-- <img src="<?php echo BASE_URL . '/assets/img/WHAT.jpg' ?>" class="img-fuild slide-img" alt=""> -->
                     </div>
                 </section>
@@ -589,18 +622,59 @@
         $(document).ready(function(){
             $('.owl-carousel').owlCarousel({
                 loop:true,
-                margin:10,
-                // center: true,
+                margin:1,
+                center: true,
                 autoplay:true,
                 autoplayTimeout:3000,
                 autoplayHoverPause:true,
-                responsiveClass:true,
+                // responsiveClass:true,
                 autoWidth:true,
                 items: 1,
-                autoHeight:true,
+                // autoHeight:true,
+            });
+            $('.responsive').slick({
+                dots: true,
+                speed: 300,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                infinite: true,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                // adaptiveHeight: true,  
+                // variableWidth: true,
+                fade: true,
+                cssEase: 'linear',
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: true,
+                        // dots: true
+                    }
+                    },
+                    {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 2
+                    }
+                    },
+                    {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
             });
         });
-    </script>
+        </script>
 </body>
 
 </html>

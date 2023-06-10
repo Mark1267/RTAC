@@ -8,11 +8,13 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <!-- BEGIN VENDOR JS-->
     <script type="text/javascript" src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/ui/jquery.sticky.js"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/vendors.min.js" type="text/javascript"></script>
-    <!-- BEGIN VENDOR JS-->
     <script src="<?php echo BASE_URL . '/assets/dashboard/js/clipboard.min.js'; ?>"></script>
+    <!-- BEGIN VENDOR JS-->
     <script type="text/javascript">
             var iclp = new ClipboardJS('.i-block');
             iclp.on('success', function(e) {
@@ -29,7 +31,9 @@
                 }, 3000);
             });
     </script>
-    <!-- BEGIN PAGE VENDOR JS-->
+
+<!-- BEGIN PAGE VENDOR JS-->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/tables/buttons.flash.min.js" type="text/javascript"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/tables/jszip.min.js" type="text/javascript"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/tables/pdfmake.min.js" type="text/javascript"></script>
@@ -45,6 +49,7 @@
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>vendors/js/tables/datatable/dataTables.buttons.min.js" type="text/javascript"></script>
     <!-- END PAGE VENDOR JS-->
     <!-- BEGIN MODERN JS-->
+    
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>js/core/app-menu.js" type="text/javascript"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>js/core/app.js" type="text/javascript"></script>
     <script src="<?php echo BASE_URL . '/assets/dashboard/'; ?>js/scripts/customizer.js" type="text/javascript"></script>

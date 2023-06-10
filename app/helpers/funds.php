@@ -1,5 +1,7 @@
 <?php
 
+// use Exception;
+
 function coinPrice($symbol){
     $url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest';
     $parameters = [
@@ -22,16 +24,22 @@ function coinPrice($symbol){
       CURLOPT_RETURNTRANSFER => 1         // ask for raw response instead of bool
     ));
 
-      $response = curl_exec($curl); // Send the request, save the response
+    $response = curl_exec($curl); // Send the request, save the response
     $json = (json_decode($response)); // print json decoded response
-      curl_close($curl); // Close request
+    curl_close($curl); // Close request
+    try{
       foreach ($json->data as $data) {
-          $price = $data->quote->USD->price;
-          $percent = $data->quote->USD->percent_change_24h;
-          $volume = $data->quote->USD->volume_24h;
-          $market = $data->quote->USD->market_cap;
-       }
-      $all = array($price, $percent, $volume, $market);
+        $price = $data->quote->USD->price;
+        $percent_2 = $data->quote->USD->percent_change_90d;
+        $percent = $data->quote->USD->percent_change_24h;
+        $volume = $data->quote->USD->volume_24h;
+        $market = $data->quote->USD->market_cap;
+      }
+    }catch(\Exception $e){
+      $price=$percent=$volume=$market=$percent_2 = 000001;
+    }
+    $all = array($price, $percent, $volume, $market, $percent_2);
+
     return $all;
 }
 
