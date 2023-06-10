@@ -466,6 +466,63 @@ $title = 'Home';
 
   <?php include(ROOT_PATH . '/app/includes/testimonies.php'); ?>
 
+  <section class="our-blog-section ptb-100 my-5 gray-light-bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-9 mx-auto col-lg-8">
+                <div class="section-heading text-center">
+                    <h2 class="mb-3">Live Statistics</h2>
+                    <p>Here is the log of the most recent transactions including withdraw and deposit made by our users.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-6">
+                <div class="single-blog-article border rounded d-block p-4 mt-4" href="#">
+                    <div class="latest-row latest-row1">
+
+                        <ul>
+                            <li class="title">
+                                <h3>Latest deposit</h3>
+                            </li>
+                        </ul>
+                        <table class="table table-responsive">
+                          <?php foreach(deposits() as $data): ?>
+                            <tr>
+                              <td><?= $data['name'] ?></td>
+                              <td>$<?= number_format($data['amount']) ?></td>
+                              <td><i><img src="https://bulkwavecapital.com/assets/open/images/1000.gif"></i></td>
+                            </tr>
+                          <?php endforeach; ?>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="single-blog-article border rounded d-block p-4 mt-4" href="#">
+                    <div class="latest-row latest-row3">
+
+                        <ul>
+                            <li class="title">
+                                <h3>Latest withdrawals</h3>
+                            </li>
+                        </ul>
+                        <table class="table table-responsive">
+                          <?php foreach(withdrawals() as $data): ?>
+                            <tr>
+                              <td><?= $data['name'] ?></td>
+                              <td>$<?= number_format($data['amount']) ?></td>
+                              <td><i><img src="https://bulkwavecapital.com/assets/open/images/1000.gif"></i></td>
+                            </tr>
+                          <?php endforeach; ?>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
   <!--News & Thoughts-->
   <section id="news" class="padding light layout_third">
     <div class="container">
