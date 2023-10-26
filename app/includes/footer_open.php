@@ -4,7 +4,7 @@
     <div class="col-sm-3">
       <div class="contact_inner">
         <i class="icon-phone4"></i>
-        <h5><strong><a href="https://wa.link/0dqz4c">+44 7535 868870</a></strong></h5>
+        <h5><strong><a href="https://wa.link/0dqz4c"><?= PHONE ?></a></strong></h5>
         <a href="mailto:info@rocktera-assets.com">info@rocktera-assets.com</a>
       </div>
     </div>
