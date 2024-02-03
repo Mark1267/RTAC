@@ -16,7 +16,8 @@ if($LOCAL){
     define('DB_PASS', '');
     define('DB_NAME', 'rtac');
 }else{
-    define('BASE_URL', 'https://rocktera-assets.com');
+    //define('BASE_URL', 'https://rocktera-assets.com');
+    define('BASE_URL', 'https://rocktera-assets.net');
     define('HOST', 'localhost');
     define('DB_USER', 'u561911775_Stafen');
     define('DB_PASS', 'GZQ|hj&5T');
