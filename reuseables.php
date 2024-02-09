@@ -4,7 +4,7 @@ $reuseables = array(
     "XVIDEO" => array('mp4', 'mkv', 'avi', '3gp'),
     "XAUDIO" => array('mp3', 'm4a', 'wav', 'opus'),
     "XFILE" => array('txt', 'pdf', 'docx'),
-    "MUSER" => 'info@rocktera-assets.com',
+    "MUSER" => 'info@rocktera-assets.net',
     "MPASS" => 'Stafen12345',
     'PHONE' => "+1 6823259927"
 );
