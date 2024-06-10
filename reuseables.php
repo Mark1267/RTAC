@@ -6,7 +6,7 @@ $reuseables = array(
     "XFILE" => array('txt', 'pdf', 'docx'),
     "MUSER" => 'info@rocktera-assets.net',
     "MPASS" => 'Stafen12345.',
-    'PHONE' => "+1 6823259927"
+    'PHONE' => "+44 7535 288931"
 );
 
 foreach($reuseables as $key => $value){
