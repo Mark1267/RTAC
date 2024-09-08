@@ -55,7 +55,7 @@ $title = 'Contact Us';
                 <div class="text">
                   <h4>Phone</h4>
                   <!-- <p>(+44) 791-921-4075</p> -->
-                  <a href="https://wa.link/0dqz4c"><?= PHONE ?></a>
+                  <a href="https://api.whatsapp.com/send?phone=447787212553&text=Hello%2C%20I%20want%20to%20invest%20in%20Rocktera%20Assets"><?= PHONE ?></a>
                 </div>
                </div>
               </div>
@@ -64,7 +64,7 @@ $title = 'Contact Us';
                 <span><i class="icon-mail"></i></span>
                 <div class="text">
                   <h4>Email Address</h4>
-                  <p><a href="#.">info@rocktera-assets.com</a></p>
+                  <p><a href="#.">info@rocktera-assets.net</a></p>
                 </div>
                </div>
               </div>

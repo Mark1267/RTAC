@@ -4,8 +4,8 @@
     <div class="col-sm-3">
       <div class="contact_inner">
         <i class="icon-phone4"></i>
-        <h5><strong><a href="https://wa.link/0dqz4c"><?= PHONE ?></a></strong></h5>
-        <a href="mailto:info@rocktera-assets.com">info@rocktera-assets.com</a>
+        <h5><strong><a href="https://api.whatsapp.com/send?phone=447787212553&text=Hello%2C%20I%20want%20to%20invest%20in%20Rocktera%20Assets"><?= PHONE ?></a></strong></h5>
+        <a href="mailto:info@rocktera-assets.net">info@rocktera-assets.net</a>
       </div>
     </div>
     <div class="col-sm-3">
