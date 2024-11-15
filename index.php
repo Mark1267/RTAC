@@ -118,6 +118,27 @@ $title = 'Home';
   </section>
   <!--Good Plans ends-->
 
+    <!--Good Plan-->
+    <section id="plans" class="padding-to" style="padding-top: 20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center wow fadeInDown">
+          <h2 class="text-capitalize bottom10">Our <span class="blue_t">Certifications</span></h2>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
+          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT1.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
+          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
+          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Good Plans ends-->
+
   <!--Three columns text Info-->
   <section id="info" class="padding">
     <div class="container">
