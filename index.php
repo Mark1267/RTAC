@@ -121,11 +121,11 @@ $title = 'Home';
     <!--Good Plan-->
     <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
-      <div class="row">
+      <div class="row" style="display: flex; justify-items: center;">
         <div class="col-sm-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Insurance Certification</span></h2>
         </div>
-        <div class="col-lg-10 col-md-10 col-sm-10 text-center top40">
+        <div class="col-lg-10 col-md-10 col-sm-10 text-center top40" style="margin: auto;">
           <!-- <figure><img src="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure> -->
           <p>Rocktera Digital Asset Management has secured a comprehensive insurance policy, registered under number 39112790, which safeguards the company's initial capital, active investment capital, and all legal and financial activities. This policy is renewable every four years, ensuring continuous protection and peace of mind for the company.</p>
           <a href="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" target="_blank" class="btn-green top10 border_radius text-uppercase">View Certificate</a>
@@ -201,11 +201,11 @@ $title = 'Home';
       <!--Good Plan-->
       <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
-      <div class="row">
+      <div class="row" style="display: flex; justify-items: center;">
         <div class="col-sm-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Rocktera-assets's Prestigious <span class="blue_t">IMF Certification</span></h2>
         </div>
-        <div class="col-lg-10 col-md-10 col-sm-10 text-center mx-auto content_left top40" style>
+        <div class="col-lg-10 col-md-10 col-sm-10 text-center content_left top40" style="margin: auto;">
           <!-- <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure> -->
           
           <p class="bottom30">Rocktera Digital Asset Management has achieved a major breakthrough with this certificate, verifying its IMF approval and clearance. The beneficiary has subsequently been granted a Money Laundering Clearance Certificate, adhering to the Money Laundering/Investment Scam Law of 2011, Paragraph 12 A section 9A SUB-SECTION QA4. This accomplishment unlocks global opportunities for the beneficiary, empowering it to operate seamlessly in the United Kingdom and beyond</p>
