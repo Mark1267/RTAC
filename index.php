@@ -121,7 +121,7 @@ $title = 'Home';
     <!--Good Plan-->
     <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
-      <div class="row" style="display: flex; justify-items: center;">
+      <div class="row" style="display: flex; justify-items: center; flex-direction: column;">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Insurance Certification</span></h2>
         </div>
@@ -201,7 +201,7 @@ $title = 'Home';
       <!--Good Plan-->
       <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
-      <div class="row" style="display: flex; justify-items: center;">
+      <div class="row" style="display: flex; justify-items: center; flex-direction: column;">
         <div class="col-sm-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Rocktera-assets's Prestigious <span class="blue_t">IMF Certification</span></h2>
         </div>
@@ -340,7 +340,7 @@ $title = 'Home';
   </section>
   <!--Facts & Counters-->
   <section class="p-2 text-white" style="background: #73ae20; color: white;">
-    <div class="row" style="display: flex; justify-items: center;">
+    <div class="row" style="display: flex; justify-items: center; flex-direction: column;">
       <div class="col-12 col-md-6 text-center" style="padding: 20px; margin: auto;">
         <h2 class="mb-4">Get The Highlight of <span class="blue_t">ROCKTERA ASSETS</span></h2><br>
         <!-- <h5 class=" border_radius" style="border: 2px solid white; padding: 10px; display: inline-block;"><i class="fa fa-download" aria-hidden="true"></i> Download Below</h5><br><br> -->
