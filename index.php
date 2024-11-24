@@ -126,8 +126,9 @@ $title = 'Home';
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Insurance Certification</span></h2>
         </div>
         <div class="col-lg-10 col-md-10 col-sm-10 content_left top40">
-          <figure><img src="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
-          <p>Rocktera Assets proudly holds a Certification of Insurance awarded by Prime Insurance on November 5th, 2019. This prestigious certification underscores Rocktera Assets's commitment to operational excellence, security, and reliability, solidifying its reputation as a trusted name in the gold industry.</p>
+          <!-- <figure><img src="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure> -->
+          <p>Rocktera Digital Asset Management has secured a comprehensive insurance policy, registered under number 39112790, which safeguards the company's initial capital, active investment capital, and all legal and financial activities. This policy is renewable every four years, ensuring continuous protection and peace of mind for the company.</p>
+          <a href="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" target="_blank" class="btn-green top10 border_radius text-uppercase">View Certificate</a>
         </div>
       </div>
     </div>
@@ -207,7 +208,7 @@ $title = 'Home';
         <div class="col-lg-10 col-md-10 col-sm-10 text-center mx-auto content_left top40" style>
           <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
           
-          <p class="bottom30">On May 1, 2019, Rocktera-assets received an official certification of clearance from the International Monetary Fund (IMF), recognizing its commitment to transparency, ethical practices, and excellence in financial operations. This milestone affirms Rocktera-assets's reputation as a trusted leader in the global gold and asset trading industry.</p>
+          <p class="bottom30">Rocktera Digital Asset Management has achieved a major breakthrough with this certificate, verifying its IMF approval and clearance. The beneficiary has subsequently been granted a Money Laundering Clearance Certificate, adhering to the Money Laundering/Investment Scam Law of 2011, Paragraph 12 A section 9A SUB-SECTION QA4. This accomplishment unlocks global opportunities for the beneficiary, empowering it to operate seamlessly in the United Kingdom and beyond</p>
         </div>
       </div>
     </div>
@@ -415,7 +416,7 @@ $title = 'Home';
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Certificate of Incorpration</span></h2>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 content_left top40">
-          <p class="bottom30">Rocktera-assets is proudly certified by the Registrar of Companies in England and Wales, having received its official incorporation on January 11, 2009. This certification underscores Rocktera-assets's commitment to operating as a legitimate and trusted entity, delivering excellence and reliability in all its services.</p>
+          <p class="bottom30">This certificate is to prove the Registrar of Companies for English and Wales, confirms that ROCKTERA DIGITAL ASSET MANAGEMENT has achieved successful incorporation under the Companies Act 2006 as a private company limited by guarantee, and has its registered office situated in England and Wales. Given at Companies House on 11, January, 2019.</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 content_left top40">
           <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT1.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
