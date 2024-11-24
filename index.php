@@ -122,7 +122,7 @@ $title = 'Home';
     <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
       <div class="row" style="display: flex; justify-items: center;">
-        <div class="col-sm-12 text-center wow fadeInDown">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Insurance Certification</span></h2>
         </div>
         <div class="col-lg-10 col-md-10 col-sm-10 text-center top40" style="margin: auto;">
