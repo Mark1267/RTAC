@@ -126,9 +126,6 @@ $title = 'Home';
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Certifications</span></h2>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
-          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
           <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
         </div>
       </div>
@@ -199,7 +196,22 @@ $title = 'Home';
   </section>
   <!--Info Text ends-->
 
-
+      <!--Good Plan-->
+      <section id="plans" class="padding-to" style="padding-top: 20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center wow fadeInDown">
+          <h2 class="text-capitalize bottom10">Rocktera-assets's Prestigious <span class="blue_t">IMF Certification</span></h2>
+        </div>
+        <div class="col-lg-10 col-md-10 col-sm-10 text-center mx-auto content_left top40">
+          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
+          
+          <p class="bottom30">On May 1, 2019, Rocktera-assets received an official certification of clearance from the International Monetary Fund (IMF), recognizing its commitment to transparency, ethical practices, and excellence in financial operations. This milestone affirms Rocktera-assets's reputation as a trusted leader in the global gold and asset trading industry.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Good Plans ends-->
 
   <!--Three columns text Info-->
   <section id="info" class="padding-top">
