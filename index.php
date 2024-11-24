@@ -123,10 +123,11 @@ $title = 'Home';
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center wow fadeInDown">
-          <h2 class="text-capitalize bottom10">Our <span class="blue_t">Certifications</span></h2>
+          <h2 class="text-capitalize bottom10">Our <span class="blue_t">Insurance Certification</span></h2>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
-          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
+        <div class="col-lg-10 col-md-10 col-sm-10 content_left top40">
+          <figure><img src="<?php echo BASE_URL . '/assets/img/CERT3.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
+          <p>Rocktera Assets proudly holds a Certification of Insurance awarded by Prime Insurance on November 5th, 2019. This prestigious certification underscores Rocktera Assets's commitment to operational excellence, security, and reliability, solidifying its reputation as a trusted name in the gold industry.</p>
         </div>
       </div>
     </div>
@@ -203,7 +204,7 @@ $title = 'Home';
         <div class="col-sm-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Rocktera-assets's Prestigious <span class="blue_t">IMF Certification</span></h2>
         </div>
-        <div class="col-lg-10 col-md-10 col-sm-10 text-center mx-auto content_left top40">
+        <div class="col-lg-10 col-md-10 col-sm-10 text-center mx-auto content_left top40" style>
           <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
           
           <p class="bottom30">On May 1, 2019, Rocktera-assets received an official certification of clearance from the International Monetary Fund (IMF), recognizing its commitment to transparency, ethical practices, and excellence in financial operations. This milestone affirms Rocktera-assets's reputation as a trusted leader in the global gold and asset trading industry.</p>
