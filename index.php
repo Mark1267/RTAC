@@ -126,9 +126,6 @@ $title = 'Home';
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Certifications</span></h2>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
-          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT1.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
           <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-4 content_left top40">
@@ -397,6 +394,24 @@ $title = 'Home';
       <?php endforeach; ?>
     </div>
   </section>
+
+      <!--Good Plan-->
+      <section id="plans" class="padding-to" style="padding-top: 20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center wow fadeInDown">
+          <h2 class="text-capitalize bottom10">Our <span class="blue_t">Certificate of Incorpration</span></h2>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 content_left top40">
+          <p class="bottom30">Rocktera-assets is proudly certified by the Registrar of Companies in England and Wales, having received its official incorporation on January 11, 2009. This certification underscores Rocktera-assets's commitment to operating as a legitimate and trusted entity, delivering excellence and reliability in all its services.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 content_left top40">
+          <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT1.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Good Plans ends-->
 
   <!--News & Thoughts-->
   <section id="news" class="padding light layout_third">
