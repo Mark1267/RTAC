@@ -121,7 +121,11 @@ $title = 'Home';
     <!--Good Plan-->
     <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
+<<<<<<< HEAD
+      <div class="row" style="display: flex; justify-items: center;flex-direction: column;">
+=======
       <div class="row" style="display: flex; justify-items: center; flex-direction: column;">
+>>>>>>> 751b3c62c00eb6fdc71fe211ad7480524d3dd412
         <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Insurance Certification</span></h2>
         </div>
@@ -206,7 +210,6 @@ $title = 'Home';
           <h2 class="text-capitalize bottom10">Rocktera-assets's Prestigious <span class="blue_t">IMF Certification</span></h2>
         </div>
         <div class="col-lg-10 col-md-10 col-sm-10 text-center content_left top40" style="margin: auto;">
-          <!-- <figure> <img src="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" alt="Certificate of Incorpration" class="img-responsive"></figure> -->
           
           <p class="bottom30">Rocktera Digital Asset Management has achieved a major breakthrough with this certificate, verifying its IMF approval and clearance. The beneficiary has subsequently been granted a Money Laundering Clearance Certificate, adhering to the Money Laundering/Investment Scam Law of 2011, Paragraph 12 A section 9A SUB-SECTION QA4. This accomplishment unlocks global opportunities for the beneficiary, empowering it to operate seamlessly in the United Kingdom and beyond</p>
           <a href="<?php echo BASE_URL . '/assets/img/CERT2.jpeg' ?>" target="_blank" class="btn-green top10 border_radius text-uppercase">View Certificate</a>
@@ -412,11 +415,11 @@ $title = 'Home';
       <!--Good Plan-->
       <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
-      <div class="row">
+      <div class="row" style="display: flex; justify-items: center; flex-direction: column;">
         <div class="col-sm-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Certificate of Incorpration</span></h2>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-6 content_left top40">
+        <div class="col-lg-10 col-md-10 col-sm-10 content_left top40">
           <p class="bottom30">This certificate is to prove the Registrar of Companies for English and Wales, confirms that ROCKTERA DIGITAL ASSET MANAGEMENT has achieved successful incorporation under the Companies Act 2006 as a private company limited by guarantee, and has its registered office situated in England and Wales. Given at Companies House on 11, January, 2019.</p>
           <a href="<?php echo BASE_URL . '/assets/img/CERT1.jpeg' ?>" target="_blank" class="btn-green top10 border_radius text-uppercase">View Certificate</a>
         </div>
