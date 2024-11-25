@@ -121,11 +121,7 @@ $title = 'Home';
     <!--Good Plan-->
     <section id="plans" class="padding-to" style="padding-top: 20px;">
     <div class="container">
-<<<<<<< HEAD
-      <div class="row" style="display: flex; justify-items: center;flex-direction: column;">
-=======
       <div class="row" style="display: flex; justify-items: center; flex-direction: column;">
->>>>>>> 751b3c62c00eb6fdc71fe211ad7480524d3dd412
         <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-center wow fadeInDown">
           <h2 class="text-capitalize bottom10">Our <span class="blue_t">Insurance Certification</span></h2>
         </div>
